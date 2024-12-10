@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 35px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
