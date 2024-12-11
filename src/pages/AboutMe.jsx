@@ -6,14 +6,22 @@ export const AboutMe = () => {
     <section id='aboutMe'>
       <div className="container">
         <div className="foto">
-          <img src={miFoto} alt="" />
+          <figure>
+            <img src={miFoto} alt="Foto personal" />
+          </figure>
         </div>
         <div className="info">
-          <h2>About Me</h2>
-          <p>Hi! I am Santiago Montironi, from Argentina, and I am 22 years old. As a developer passionate about technology, I have a web development startup called FullWeb, focused on creating high-perfomance and customized web applicactions.</p>
-          <p>My projects range from client management systems to interactive e-commerce plataforms, where I prorize optimization and clean code to ensure an excellent user experience.</p>
-          <p>I enjoy exploring new technologies and stay updated in tendences, always in search to improve and learn more with each project.</p>
-          <p>I am open to collaborating and learning together.</p>
+          <h2 className='w-25 border-bottom border-3 border-success'>About Me</h2>
+
+          <p>Hi! I am <span>Santiago Montironi</span>, a web developer from Argentina, and I am 22 years old.</p>
+
+          <p>As the founder of <a href="https://fullwebportfolio.com/" target='blank_'>FullWeb</a>, a web development startup, I specialize in creating high-performance and customized web applications.</p>
+
+          <p>I enjoy exploring new technologies and staying updated on the latest trends. I’m always seeking to improve and learn with every project.</p>
+
+          <p>I am open to collaboration and learning together. Feel free to reach out!</p>
+
+          <a className='btn-pdf' href="/Santiago-Montironi-CV.pdf" download="Santiago Montironi CV.pdf">Download CV</a>
         </div>
       </div>
     </section>

@@ -28,7 +28,6 @@ export const Main = () => {
                             delaySpeed={700}
                         />
                     </span>
-                    <a href="/Santiago-Montironi-CV.pdf" download="Santiago Montironi CV.pdf">Descargar PDF</a>
                 </div>
             </main>
         </div>
