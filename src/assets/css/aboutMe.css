@@ -1,5 +1,16 @@
 #aboutMe{
     max-width: 100%;
-    height: 100vh;
-    background-color: red;
+    height: 80vh;
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+    padding: 40px;
+    gap: 60px;
+}
+
+.foto img{
+    width: 350px;
+    height: 450px;
 }
