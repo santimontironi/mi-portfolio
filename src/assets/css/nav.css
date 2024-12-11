@@ -1,27 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-}
-
-.logo a{
+#menu .logo{
     text-decoration: none;
     font-family: 'Pacifico', cursive;
     color: #fff;
     font-size: 35px;
 }
 
-ul{
-    list-style: none;
+#menu .logo img{
+    width: 100px;
+}
+
+#menu ul{
     display: flex;
     gap: 30px;
 }
 
-ul li a{
+#menu ul li a{
     text-decoration: none;
     color: #fff;
     padding: 10px;
+    border-radius: 100%;
+}
+
+@media(max-width:799px){
+    #menu .navbar-toggler{
+        background-color: #fff;
+    }
+    #menu{
+        background: linear-gradient(#1e9249b9,#0f9e5e63)
+    }
+    #menu ul{
+        gap: 15px;
+    }
+}
+
+@media(min-width:800px) and (max-width:1300px){
+    #menu .navbar-toggler{
+        font-size: 35px;
+        background-color: #fff;
+    }
+    #menu{
+        background: linear-gradient(#1e9249b9,#0f9e5e63);
+    }
+    #menu .logo{
+        font-size: 50px;
+    }
+    #menu ul{
+        margin-top: 15px;
+    }
+    #menu ul li a{
+        font-size: 30px;
+    }
 }
