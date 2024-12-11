@@ -1,5 +1,5 @@
 import '../assets/css/aboutMe.css'
-import miFoto from '../assets/img/foto2.jpg'
+import miFoto from '../assets/img/foto2.png'
 
 export const AboutMe = () => {
   return (

@@ -17,7 +17,7 @@
 .contenido img{
     width: 210px;
     border-radius: 99999px;
-    box-shadow: 1px 2px 20px #19e764;
+    filter: drop-shadow(0px 0px 50px #000000);
 }
 
 .contenido img:hover{

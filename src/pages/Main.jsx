@@ -1,7 +1,7 @@
 import { Typewriter } from 'react-simple-typewriter'
 import '../assets/css/main.css'
 import { Nav } from '../components/Nav'
-import miFoto from '../assets/img/miFoto.png'
+import miFoto from '../assets/img/foto.png'
 
 
 export const Main = () => {
