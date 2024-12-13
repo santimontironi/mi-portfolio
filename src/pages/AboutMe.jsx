@@ -1,17 +1,25 @@
 import '../assets/css/aboutMe.css'
 import miFoto from '../assets/img/foto2.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 export const AboutMe = () => {
+
+  useEffect(() => {
+    Aos.init({duration:1000})
+  },[])
+
   return (
     <section id='aboutMe'>
       <div className="container">
-        <div className="foto">
+        <div className="foto" data-aos="zoom-in-right">
           <figure>
             <img src={miFoto} alt="Foto personal" />
           </figure>
         </div>
-        <div className="info">
-          <h2 className='w-25 border-bottom border-3 border-success'>About Me</h2>
+        <div className="info" data-aos="zoom-in">
+          <h2>About Me</h2>
 
           <p>Hi! I am <span>Santiago Montironi</span>, a web developer from Argentina, and I am 22 years old.</p>
 

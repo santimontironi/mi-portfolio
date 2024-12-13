@@ -8,7 +8,9 @@
 }
 
 #menu .logo img{
-    width: 100px;
+    width: 120px;
+    border-radius: 99999px;
+    object-fit: cover;
 }
 
 #menu ul{
@@ -26,9 +28,14 @@
 @media(max-width:799px){
     #menu .navbar-toggler{
         background-color: #fff;
+        font-size: 28px;
+        margin-right: 20px;
     }
     #menu{
-        background: linear-gradient(#1e9249b9,#0f9e5e63)
+        background: linear-gradient(#1e9249b9,#0f9e5e63);
+    }
+    #menu .logo img{
+        width: 130px;
     }
     #menu ul{
         gap: 15px;

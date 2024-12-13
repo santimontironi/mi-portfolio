@@ -2,15 +2,22 @@ import { Typewriter } from 'react-simple-typewriter'
 import '../assets/css/main.css'
 import { Nav } from '../components/Nav'
 import miFoto from '../assets/img/foto.png'
-
+import { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export const Main = () => {
+
+    useEffect(() => {
+        Aos.init({duration:4000})
+    },[])
+
     return (
         <div className='contenedor'>
             <Nav />
             <main id="inicio">
-                <div className="contenido">
-                    <img src={miFoto} alt="foto-perfil" />
+                <div className="contenido" data-aos="zoom-in-down">
+                    <img src={miFoto} alt="Foto perfil" />
                     <h1>
                         Hi, I am <span>Santiago</span>
                     </h1>

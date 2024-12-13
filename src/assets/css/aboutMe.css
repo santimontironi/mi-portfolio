@@ -12,7 +12,8 @@
 
 .foto figure{
     position: relative;
-    background-color: #1FFF72;
+    background-color: #0b7030;
+    box-shadow: 2px 5px 20px #000000;
 }
 
 .foto img{
@@ -20,7 +21,7 @@
     right: 30px;
     top: 30px;
     width: 300px;
-    height: 450px;
+    height: 400px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
@@ -37,6 +38,7 @@
 
 .info h2{
     font-size: 35px;
+    width: auto;
 }
 
 .info span{
@@ -62,4 +64,17 @@
     50%{
         transform: translateY(30px);
     }
+}
+
+@media(max-width:800px){
+    .container{
+        flex-direction: column;
+    }
+    .info{
+        border-left: none;
+        border-top: solid 3px #065a34;
+        padding-left: 0;
+        padding-top: 16px;
+    }
+
 }

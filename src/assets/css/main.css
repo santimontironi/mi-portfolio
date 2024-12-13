@@ -1,6 +1,6 @@
 .contenedor{
     max-width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.60)),url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,9 +44,10 @@
 @media(max-width:800px){
     .contenido img{
         margin-top: 40px;
+        width: 240px;
     }
     .contenido h1{
-        font-size: 40px;
+        font-size: 32px;
     }
     .typeWritter{
         font-size: 18px;
