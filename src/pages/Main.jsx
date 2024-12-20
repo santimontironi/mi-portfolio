@@ -13,7 +13,7 @@ export const Main = () => {
     },[])
 
     return (
-        <div className='contenedor'>
+        <section className='contenedor'>
             <Nav />
             <main id="inicio">
                 <div className="contenido" data-aos="zoom-in-down">
@@ -37,6 +37,6 @@ export const Main = () => {
                     </span>
                 </div>
             </main>
-        </div>
+        </section>
     );
 };
