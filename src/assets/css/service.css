@@ -9,9 +9,16 @@
     background: linear-gradient(150deg,#0e7935,#1FFF72);
 }
 
+.servicio:hover{
+    transition: .8s;
+    transform: scale(1.1);
+    background: linear-gradient(-150deg,#0e7935,#1FFF72);
+}
+
 .servicio .logo{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 40px;
     width: 70px;
     height: 70px;
