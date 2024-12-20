@@ -11,7 +11,7 @@
 
 .servicio:hover{
     transition: .8s;
-    transform: scale(1.1);
+    transform: translateY(-20px);
     background: linear-gradient(-150deg,#0e7935,#1FFF72);
 }
 
