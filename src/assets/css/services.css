@@ -21,4 +21,5 @@
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
     place-items: center;
+    place-content: center;
 }
