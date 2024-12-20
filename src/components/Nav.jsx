@@ -3,7 +3,7 @@ import logo from '../assets/img/logo.png'
 
 export const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg p-4" id='menu'>
+    <nav className="navbar navbar-expand-lg p-3" id='menu'>
       <div className="container-fluid">
         <a className="navbar-brand logo" href="#inicio"><img src={logo} alt="" /></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

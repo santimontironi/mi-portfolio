@@ -1,6 +1,6 @@
 #aboutMe{
     max-width: 100%;
-    height: auto;
+    height: 500px;
     background-color: #fff;
 }
 
@@ -67,6 +67,9 @@
 }
 
 @media(max-width:800px){
+    #aboutMe{
+        height: auto;
+    }
     .container{
         flex-direction: column;
     }
