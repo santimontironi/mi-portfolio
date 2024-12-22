@@ -7,18 +7,18 @@ import { useEffect } from 'react'
 export const AboutMe = () => {
 
   useEffect(() => {
-    Aos.init({duration:1000, once:false, debug:true, offset:50})
+    Aos.init({duration:1000})
   },[])
 
   return (
     <section id='aboutMe'>
       <div className="container">
-        <div className="foto" data-aos="zoom-in-right" data-aos-anchor-placement="top-bottom">
+        <div className="foto" data-aos="zoom-in-right">
           <figure>
             <img src={miFoto} alt="Foto personal" />
           </figure>
         </div>
-        <div className="info" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+        <div className="info" data-aos="zoom-in">
           <h2>About Me</h2>
 
           <p>Hi! I am <span>Santiago Montironi</span>, a web developer from Argentina, and I am 22 years old.</p>
