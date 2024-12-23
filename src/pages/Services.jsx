@@ -10,7 +10,7 @@ export const Services = () => {
         <Service icono={<i className="bx bx-server"></i>} titulo = 'Backend Web' descripcion='Implementation of robust and secure systems with user authentication, APIs and databases.'/>
         <Service icono={<i className='bi bi-database'></i>} titulo = 'Databases' descripcion = 'Creation and Maintenance of efficient, secure, and scalable Databases with MySQL and MongoDB for robust data solutions'/>
         <Service icono={<i className='bi bi-phone'></i>} titulo = 'Responsive Web' descripcion = 'Responsive design for mobile websites and apps, providing the best user experience with modern and efficient layouts.'/>
-        <Service />
+        <Service icono={<i className="bi bi-cart"></i>} titulo = 'E-commerce' descripcion = 'Design and implementation of online stores using WooCommerce, adapted to the needs of your business and with a focus in usability and user experience' />
         <Service />
       </div>
     </section>
