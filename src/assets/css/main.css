@@ -44,21 +44,27 @@
 
 @media(max-width:800px){
     .contenedor{
-        height: 115vh;
+        height: auto;
+        padding-bottom: 25px;
+        background-attachment: initial;
     }
     .contenido img{
         margin-top: 40px;
         width: 240px;
     }
     .contenido h1{
-        font-size: 35px;
+        font-size: 40px;
     }
     .typeWritter{
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 
 @media(min-width:801px) and (max-width:1200px){
+    .contenedor{
+        max-width: 100%;
+        background-attachment: initial;
+    }
     .contenido h1{
         font-size: 70px;
     }

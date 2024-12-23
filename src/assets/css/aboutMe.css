@@ -55,6 +55,7 @@
     padding: 12px;
     border-radius: 30px;
     animation: movimiento 3s ease-in-out infinite;
+    box-shadow: 10px 10px 30px #000;
 }
 
 @keyframes movimiento{
@@ -80,4 +81,10 @@
         padding-top: 16px;
     }
 
+}
+
+@media (min-width:801px) and (max-width:1300px){
+    #aboutMe{
+        height: auto;
+    }
 }

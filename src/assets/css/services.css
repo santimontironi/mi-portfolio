@@ -29,3 +29,29 @@
     place-content: center;
     margin-top: 20px;
 }
+
+@media (max-width: 800px){
+    #services{
+        height: 200vh;
+    }
+    .titulo-services{
+        height: 230px;
+        font-size: 50px;
+        background-attachment: initial;
+    }
+    .contenedor-servicios{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (min-width: 801px) and (max-width:1300px){
+    .contenedor-servicios{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .titulo-services{
+        background-attachment: initial;
+    }
+}
