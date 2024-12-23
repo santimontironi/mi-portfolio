@@ -24,7 +24,7 @@
 .contenedor-servicios{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    gap: 40px;
     place-items: center;
     place-content: center;
     margin-top: 20px;

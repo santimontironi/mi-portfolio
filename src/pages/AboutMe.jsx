@@ -13,8 +13,8 @@ export const AboutMe = () => {
   return (
     <section id='aboutMe'>
       <div className="container">
-        <div className="foto" data-aos="zoom-in-right">
-          <figure>
+        <div className="foto">
+          <figure data-aos="zoom-in-right">
             <img src={miFoto} alt="Foto personal" />
           </figure>
         </div>
