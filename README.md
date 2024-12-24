@@ -2,4 +2,4 @@
 
 Actualmente en desarrollo, no está terminado.
 
-Proximamente desplegado.
+Proximamente en producción.
