@@ -7,19 +7,14 @@ import { useEffect } from 'react'
 export const AboutMe = () => {
 
   useEffect(() => {
-    Aos.init({duration:1000})
+    Aos.init({duration:1500})
   },[])
 
   return (
     <section id='aboutMe'>
+      <h2 className='titulo-about' data-aos="fade-right">About Me</h2>
       <div className="container">
-        <div className="foto">
-          <figure data-aos="zoom-in-right">
-            <img src={miFoto} alt="Foto personal" />
-          </figure>
-        </div>
         <div className="info" data-aos="zoom-in">
-          <h2>About Me</h2>
 
           <p>Hi! I am <span>Santiago Montironi</span>, a web developer from Argentina, and I am 22 years old.</p>
 
@@ -29,7 +24,12 @@ export const AboutMe = () => {
 
           <p>I am open to collaboration and learning together. Feel free to reach out!</p>
 
-          <a className='btn-pdf' href="/Santiago-Montironi-CV.pdf" download="Santiago Montironi CV.pdf">Download CV</a>
+          <a className='btn-pdf' href="/Santiago-Montironi-CV.pdf" download="Santiago-Montironi-CV.pdf">Download CV</a>
+        </div>
+        <div className="foto">
+          <figure data-aos="zoom-in-right">
+            <img src={miFoto} alt="Foto personal" />
+          </figure>
         </div>
       </div>
     </section>
