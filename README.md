@@ -1,5 +1,5 @@
 # Mi portfolio
 
-Actualmente en desarrollo, no está terminado.
+## Actualmente en desarrollo.
 
-Proximamente en producción.
+## Proximamente en producción.
