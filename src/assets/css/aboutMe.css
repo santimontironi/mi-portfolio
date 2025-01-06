@@ -82,16 +82,20 @@
     #aboutMe{
         height: auto;
     }
+    .titulo-about{
+        width: 330px;
+        font-size: 35px;
+    }
     .container{
         flex-direction: column;
     }
     .info{
-        border-left: none;
-        border-top: solid 3px #065a34;
         padding-left: 0;
-        padding-top: 16px;
+        margin-top: 70px;
     }
-
+    .btn-pdf{
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width:801px) and (max-width:1300px){
