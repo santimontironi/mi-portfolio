@@ -1,11 +1,15 @@
 import '../assets/css/skills.css'
-import { Skill } from '../components/Skill'
 import logoHtml from '../assets/img/html.png'
 import logoCss from '../assets/img/css.png'
 import logoPython from '../assets/img/python.png'
 import logoJs from '../assets/img/javascript.png'
 import cSharp from '../assets/img/cSharp.png'
+import react from '../assets/img/react.png'
+import django from '../assets/img/django.png'
+import flask from '../assets/img/flask.png'
+import bootstrap from '../assets/img/bootstrap.png'
 import Wavify from "react-wavify";
+import { SkillCard } from '../components/SkillCard'
 
 export const Skills = () => {
 
@@ -16,6 +20,13 @@ export const Skills = () => {
     { logo: logoJs, nombre: 'JavaScript' },
     { logo: cSharp, nombre: 'C#' },
   ];
+
+  const frameworks = [
+    { logo: react, nombre: 'React' },
+    { logo: django, nombre: 'Django' },
+    { logo: flask, nombre: 'Flask' },
+    { logo: bootstrap, nombre: 'Bootstrap' },
+  ]
 
   return (
     <section id="skills">
@@ -31,14 +42,8 @@ export const Skills = () => {
         }}
       />
       <div className="contenedor-skills">
-        <div className="categoria-skills">
-          <h1>Lenguages and technologies</h1>
-          <div className="logos-skills">
-            {technologiesAndLenguages.map((skill, index) => (
-              <Skill key={index} logo={skill.logo} nombre={skill.nombre} />
-            ))}
-          </div>
-        </div>
+        <SkillCard categoriaSkill="Lenguajes y tecnologias" skills={technologiesAndLenguages} />
+        <SkillCard categoriaSkill="Frameworks" skills={frameworks} />
       </div>
     </section>
   )
