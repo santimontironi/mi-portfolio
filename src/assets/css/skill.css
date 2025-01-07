@@ -1,0 +1,12 @@
+img{
+    width: 100px;
+}
+
+.nombre-skill{
+    visibility: hidden;
+    color: #fff;
+}
+
+.skill:hover > .nombre-skill{
+    visibility: visible;
+}

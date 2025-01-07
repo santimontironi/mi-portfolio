@@ -1,11 +1,13 @@
 #skills{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     position: relative;
     background-color: #0f0f0f;
 }
 
 .titulo-skills{
+    display: inline-block;
+    margin-top: 30px;
     font-size: 40px;
     color: #fff;
     width: 400px;
@@ -21,4 +23,29 @@
     bottom: 0;
     left: 0;
     height: 200px;
+}
+
+.contenedor-skills{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 25px;
+}
+
+.contenedor-skills h1{
+    width: 400px;
+    color: #11a74d;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #fff;
+}
+
+.categoria-skills{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+.logos-skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
