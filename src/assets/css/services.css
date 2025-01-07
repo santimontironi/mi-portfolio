@@ -26,17 +26,19 @@
 
 @media (max-width: 800px){
     #services{
-        height: 200vh;
+        height: auto;
     }
     .titulo-services{
-        height: 230px;
-        font-size: 50px;
-        background-attachment: initial;
+        width: 330px;
+        font-size: 35px;
+        position: relative;
+        top: 30px;
     }
     .contenedor-servicios{
         display: flex;
         flex-direction: column;
         gap: 50px;
+        margin-top: 50px;
     }
 }
 
