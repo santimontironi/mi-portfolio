@@ -22,3 +22,16 @@
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
 }
+
+@media (max-width:800px){
+    .titulo-skills{
+        width: 330px;
+        font-size: 35px;
+    }
+    .categoria-skills{
+        width: 350px;
+    }
+    .logos-skills{
+        gap: 10px;
+    }
+}
