@@ -1,5 +1,5 @@
 #skills {
-    height: 140vh;
+    height: 170vh;
     width: 100%;
     position: relative;
     background-color: #0f0f0f;
@@ -26,7 +26,7 @@
 
 @media (max-width:800px){
     #skills{
-        height: 150vh;
+        height: 190vh;
     }
     .contenedor-skills{
         display: flex;

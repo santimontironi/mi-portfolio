@@ -12,6 +12,8 @@ import bootstrap from '../assets/img/bootstrap.png'
 import docker from '../assets/img/docker.png'
 import git from '../assets/img/git.png'
 import github from '../assets/img/github.png'
+import postman from '../assets/img/postman.png'
+import photoshop from '../assets/img/photoshop.png'
 import Wavify from "react-wavify";
 import { SkillCard } from '../components/SkillCard'
 
@@ -39,7 +41,9 @@ export const Skills = () => {
   const tools = [
     {logo: docker, nombre: 'Docker'},
     {logo: git, nombre: 'Git'},
-    {logo: github, nombre: 'GitHub'}
+    {logo: github, nombre: 'GitHub'},
+    {logo: postman, nombre: 'Postman'},
+    {logo: photoshop, nombre: 'Photoshop'}
   ]
 
   return (
