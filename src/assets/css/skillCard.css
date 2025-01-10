@@ -13,13 +13,13 @@
 
 .categoria-skills {
     width: 500px;
-    min-height: 400px;
+    min-height: 300px;
     text-align: center;
 }
 
 .logos-skills {
     display: grid;
-    gap: 10px;
+    gap: 4px;
     grid-template-columns: repeat(3, 1fr);
 }
 
