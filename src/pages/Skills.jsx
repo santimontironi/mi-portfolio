@@ -7,13 +7,12 @@ export const Skills = () => {
   const languages = [
     { logo: 'https://img.icons8.com/?size=100&id=13441&format=png&color=000000', nombre: 'Python' },
     { logo: 'https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000', nombre: 'JavaScript' },
-    { logo: 'https://img.icons8.com/?size=100&id=55251&format=png&color=000000', nombre: 'C#' },
+    { logo: 'https://img.icons8.com/?size=100&id=55251&format=png&color=000000', nombre: 'C#' }
   ];
 
   const WebDesignAndLayout = [
     { logo: 'https://img.icons8.com/?size=100&id=20909&format=png&color=000000', nombre: 'HTML' },
     { logo: 'https://img.icons8.com/?size=100&id=21278&format=png&color=000000', nombre: 'CSS' },
-    { logo: 'https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000', nombre: 'Bootstrap' },
     { logo: 'https://img.icons8.com/?size=100&id=13664&format=png&color=000000', nombre: 'Wordpress' }
   ]
 
@@ -21,6 +20,7 @@ export const Skills = () => {
     { logo: 'https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000', nombre: 'React' },
     { logo: 'https://img.icons8.com/?size=100&id=XPdRFanRZtNK&format=png&color=ffffff', nombre: 'Django' },
     { logo: 'https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=ffffff', nombre: 'Flask' },
+    { logo: 'https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000', nombre: 'Bootstrap' }
   ]
 
   const tools = [
@@ -28,13 +28,13 @@ export const Skills = () => {
     {logo: 'https://img.icons8.com/?size=100&id=20906&format=png&color=000000', nombre: 'Git'},
     {logo: 'https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff', nombre: 'GitHub'},
     {logo: 'https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000', nombre: 'Postman'},
-    {logo: 'https://img.icons8.com/?size=100&id=YUKvLGE4zROg&format=png&color=000000', nombre: 'UML'}
+    {logo: 'https://img.icons8.com/?size=100&id=YUKvLGE4zROg&format=png&color=000000', nombre: 'Diagramas con UML'}
   ]
 
   const databases = [
     {logo: 'https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000', nombre: 'MySQL'},
     {logo: 'https://img.icons8.com/?size=100&id=VMRAbKfEzssG&format=png&color=ffffff', nombre: 'SQLite'},
-    {logo: 'https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000', nombre: 'MongoDB'},
+    {logo: 'https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000', nombre: 'MongoDB'}
   ]
 
   const others = [
@@ -44,7 +44,7 @@ export const Skills = () => {
 
   return (
     <section id="skills">
-      <h1 className='titulo-skills'>My skills</h1>
+      <h1 className='titulo-skills' data-aos="fade-right">My skills</h1>
       <Wavify className='wave'
         fill="#058049"
         paused={false}

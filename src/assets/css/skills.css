@@ -26,7 +26,8 @@
 
 @media (max-width:800px){
     #skills{
-        height: 190vh;
+        height: auto;
+        padding-bottom: 30px;
     }
     .contenedor-skills{
         display: flex;
