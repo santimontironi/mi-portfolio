@@ -6,6 +6,20 @@
     background-color: #0f0f0f;
 }
 
+.titulo-skills {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #fff;
+    width: 400px;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #065a34, #11a74d, #065a34);
+}
+
+
 .contenedor-skills {
     display: grid;
     justify-items: center;
@@ -26,14 +40,38 @@
 
 @media (max-width:800px){
     #skills{
-        min-height: 220vh;
+        height: 180vh;
+    }
+    .titulo-skills{
+        width: 330px;
+        font-size: 35px;
     }
     .contenedor-skills{
+        position: relative;
         display: flex;
         flex-direction: column;
         margin-top: 20px;
     }
     .wave{
+        position: absolute;
+        bottom: -10px;
+        height: 200px;
+    }
+}
+
+@media (min-width:801px) and (max-width:1300px){
+    #skills{
+        height: 180vh;
+    }
+    .contenedor-skills{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .wave{
+        position: absolute;
+        bottom: -10px;
         height: 200px;
     }
 }

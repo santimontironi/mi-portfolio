@@ -43,9 +43,19 @@
 }
 
 @media (min-width: 801px) and (max-width:1300px){
+    .titulo-services{
+        position: relative;
+        top: 60px;
+    }
+    #services{
+        height: 100vh;
+    }
     .contenedor-servicios{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        place-content: center;
+        align-content: center;
+        margin-top: 80px;
     }
     .titulo-services{
         background-attachment: initial;

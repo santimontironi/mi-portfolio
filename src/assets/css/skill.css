@@ -1,4 +1,4 @@
-img{
+.logo-skill{
     width: 100px;
 }
 
@@ -9,4 +9,16 @@ img{
 
 .skill:hover > .nombre-skill{
     visibility: visible;
+}
+
+@media (max-width:800px){
+    .logo-skill{
+        width: 70px;
+    }
+}
+
+@media (min-width:801px) and (max-width:1300px){
+    .logo-skill{
+        width: 130px;
+    }
 }

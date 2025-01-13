@@ -46,9 +46,3 @@
         width: 300px;
     }
 }
-
-@media (min-width:801px) and (max-width:1300px){
-    #services{
-        height: 200vh;
-    }
-}
