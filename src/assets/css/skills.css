@@ -1,5 +1,6 @@
 #skills {
-    height: 190vh;
+    min-height: auto;
+    max-height: 200vh;
     width: 100%;
     position: relative;
     background-color: #0f0f0f;
@@ -10,7 +11,7 @@
     justify-items: center;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 25px;
+    margin-top: 55px;
 }
 
 .contenedor-skills h1 {
@@ -21,19 +22,17 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 200px;
 }
 
 @media (max-width:800px){
     #skills{
         height: auto;
-        padding-bottom: 30px;
     }
     .contenedor-skills{
         display: flex;
         flex-direction: column;
     }
     .wave{
-        height: 120px;
+        height: 200px;
     }
 }

@@ -49,9 +49,9 @@ export const Skills = () => {
         fill="#058049"
         paused={false}
         options={{
-          height: 10,
+          height: 100,
           amplitude: 16,
-          speed: 0.30,
+          speed: 0.40,
           points: 4,
         }}
       />
