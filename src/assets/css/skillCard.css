@@ -30,11 +30,11 @@
         font-size: 35px;
     }
     .categoria-skills{
-        width: 350px;
+        width: 100%;
         height: 100%;
         margin-bottom: 0;
     }
     .logos-skills{
-        gap: 3px;
+        gap: 10px;
     }
 }

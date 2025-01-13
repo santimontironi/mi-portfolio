@@ -26,11 +26,12 @@
 
 @media (max-width:800px){
     #skills{
-        height: auto;
+        min-height: 220vh;
     }
     .contenedor-skills{
         display: flex;
         flex-direction: column;
+        margin-top: 20px;
     }
     .wave{
         height: 200px;
