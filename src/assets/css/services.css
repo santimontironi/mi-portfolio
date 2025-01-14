@@ -48,7 +48,7 @@
         top: 60px;
     }
     #services{
-        height: 100vh;
+        height: auto;
     }
     .contenedor-servicios{
         display: grid;

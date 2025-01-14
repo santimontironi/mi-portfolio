@@ -1,6 +1,6 @@
 .contenedor{
     max-width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.40)),url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,7 @@
 }
 
 .contenido{
-    height: 400px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,6 +44,8 @@
 
 @media(max-width:800px){
     .contenedor{
+        background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.10)),url(../img/fondo.jpg);
+        background-size: cover;
         height: auto;
         padding-bottom: 25px;
         background-attachment: initial;
@@ -53,15 +55,16 @@
         width: 240px;
     }
     .contenido h1{
-        font-size: 40px;
+        font-size: 32px;
     }
     .typeWritter{
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
 @media(min-width:801px) and (max-width:1200px){
     .contenedor{
+        height: auto;
         max-width: 100%;
         background-attachment: initial;
     }
@@ -78,5 +81,17 @@
     .typeWritter{
         margin-top: 10px;
         font-size: 25px;
+    }
+}
+
+@media(min-width:1520px){
+    .contenido{
+        height: 500px;
+    }
+    .contenido img{
+        width: 250px;
+    }
+    .contenido h1{
+        font-size: 80px;
     }
 }
