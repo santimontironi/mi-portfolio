@@ -1,11 +1,15 @@
 .project{
     width: 500px;
     height: auto;
+    background: linear-gradient(#11a74d,#000);
+    box-shadow: 10px 10px 10px #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 6px;
+    border: solid 1px #fff;
+    padding: 12px;
 }
 
 .project img{
@@ -21,11 +25,12 @@
     color: #fff;
 }
 
-.project .enlaces-proyecto{
+.enlaces-proyecto{
     display: flex;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
 }
 
-.project .enlaces-proyecto img{
-    width: 50px;
+.enlaces-proyecto .icono-enlace{
+    width: 80px;
 }

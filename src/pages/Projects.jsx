@@ -9,7 +9,7 @@ export const Projects = () => {
       fotoProyecto: imgProyectoFulboApp, tituloProyecto: "Generador de equipos de fútbol",
       descripcionProyecto: "En esta aplicación se generan dos equipos aleatorios con los nombres de los jugadores ingresados en el formulario, los dos equipos varían dependiendo de la cantidad de jugadores que jueguen.",
       enlacesProyecto: [
-        {url: 'https://github.com/santimontironi/fulboApp', icono: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff"}
+        {urlGitHub: 'https://github.com/santimontironi/fulboApp', iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff", urlDespliegue: 'https://fulboapp.netlify.app/' ,iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png'}
       ]
     }
   ]
