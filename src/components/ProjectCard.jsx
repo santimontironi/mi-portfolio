@@ -5,7 +5,7 @@ export const ProjectCard = ({objectProject}) => {
   return (
     <div className="project-card">
       {objectProject.map((project,index) => (
-        <Project key={index} fotoProyecto={project.fotoProyecto} tituloProyecto={project.tituloProyecto} descripcionProyecto={project.descripcionProyecto} iconosProyecto={project.iconosProyecto}/>
+        <Project key={index} fotoProyecto={project.fotoProyecto} tituloProyecto={project.tituloProyecto} descripcionProyecto={project.descripcionProyecto} enlacesProyecto={project.enlacesProyecto}/>
       ))}
     </div>
   )

@@ -1,0 +1,31 @@
+.project{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.project img{
+    width: 100%;
+}
+
+.project h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.project p{
+    color: #fff;
+}
+
+.project .enlaces-proyecto{
+    display: flex;
+    gap: 10px;
+}
+
+.project .enlaces-proyecto img{
+    width: 50px;
+}
