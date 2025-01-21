@@ -1,6 +1,6 @@
 import '../assets/css/projects.css'
 import imgProyectoFulboApp from '../assets/img/proyectoFulboApp.png'
-import { ProjectCard } from '../components/ProjectCard'
+import { Project } from '../components/Project'
 
 export const Projects = () => {
 
@@ -24,7 +24,9 @@ export const Projects = () => {
     <section id='projects'>
       <h1 className='tituloProjects'>Projects</h1>
       <div className="contenedor-projects">
-        <ProjectCard objectProject={proyectoFulboApp} />
+        {proyectoFulboApp.map((proyecto,index) => (
+          <Project key={index} fotoProyecto={proyecto.fotoProyecto} tituloProyecto={proyecto.tituloProyecto} descripcionProyecto={proyecto.descripcionProyecto} enlacesProyecto={proyecto.enlacesProyecto}/>
+        ))}
       </div>
     </section>
   )
