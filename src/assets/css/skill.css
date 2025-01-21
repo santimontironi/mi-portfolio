@@ -1,10 +1,11 @@
 .skill{
-    min-width: 200px;
+    width: 200px;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .skill img{

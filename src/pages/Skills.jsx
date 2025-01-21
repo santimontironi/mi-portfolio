@@ -57,20 +57,56 @@ export const Skills = () => {
       />
       <div className="contenedor-skills">
 
-        <div className="languages">
+        <div className="skill-card">
           <h1>Languages</h1>
-          <div className="languages-logos">
+          <div className="skill-logos">
             {languages.map((skillLanguage, index) => (
               <Skill key={index} logo={skillLanguage.logo} nombre={skillLanguage.nombre} />
             ))}
           </div>
         </div>
 
-        <div className="frameworks">
+        <div className="skill-card">
           <h1>Frameworks</h1>
-          <div className="languages-logos">
+          <div className="skill-logos">
             {frameworks.map((skillFramework, index) => (
               <Skill key={index} logo={skillFramework.logo} nombre={skillFramework.nombre} />
+            ))}
+          </div>
+        </div>
+
+        <div className="skill-card">
+          <h1>Web design and layout</h1>
+          <div className="skill-logos">
+            {webDesignAndLayout.map((skillWebDesign, index) => (
+              <Skill key={index} logo={skillWebDesign.logo} nombre={skillWebDesign.nombre} />
+            ))}
+          </div>
+        </div>
+
+        <div className="skill-card">
+          <h1>Databases</h1>
+          <div className="skill-logos">
+            {databases.map((skillDatabase, index) => (
+              <Skill key={index} logo={skillDatabase.logo} nombre={skillDatabase.nombre} />
+            ))}
+          </div>
+        </div>
+        
+        <div className="skill-card">
+          <h1>Tools</h1>
+          <div className="skill-logos">
+            {tools.map((skillTool, index) => (
+              <Skill key={index} logo={skillTool.logo} nombre={skillTool.nombre} />
+            ))}
+          </div>
+        </div>
+
+        <div className="skill-card">
+          <h1>Others</h1>
+          <div className="skill-logos">
+            {others.map((skillOther, index) => (
+              <Skill key={index} logo={skillOther.logo} nombre={skillOther.nombre} />
             ))}
           </div>
         </div>
