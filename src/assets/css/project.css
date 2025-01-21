@@ -12,6 +12,16 @@
     padding: 12px;
 }
 
+.project:hover{
+    transition: .8s;
+    transform: scale(1.06);
+}
+
+.project:not(:hover){
+    transition: .8s;
+    transform: scale(0px);
+}
+
 .project img{
     width: 100%;
 }
@@ -31,8 +41,21 @@
     gap: 20px;
 }
 
+.enlaces-proyecto a{
+    text-decoration: none;
+}
+
 .enlaces-proyecto .icono-enlace{
     width: 80px;
+}
+
+.enlaces-proyecto .nombre-enlace{
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.enlaces-proyecto a:hover .nombre-enlace{
+    visibility: visible;
 }
 
 @media (max-width:800px){

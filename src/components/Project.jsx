@@ -8,11 +8,13 @@ export const Project = ({ fotoProyecto, tituloProyecto, descripcionProyecto, enl
       <p>{descripcionProyecto}</p>
       {enlacesProyecto.map((enlace, index) => (
           <div key={index} className="enlaces-proyecto">
-            <a href={enlace.urlGithub} target='_blank' rel="noopener noreferrer">
+            <a href={enlace.urlGitHub} target='_blank'>
               <img className='icono-enlace' src={enlace.iconoGitHub} alt={tituloProyecto} />
+              <p className='nombre-enlace'>{enlace.nombreEnlaceGitHub}</p>
             </a>
-            <a href={enlace.urlDespliegue}>
+            <a href={enlace.urlDespliegue} target='_blank'>
               <img className='icono-enlace' src={enlace.iconoDespliegue} alt={tituloProyecto} />
+              <p className='nombre-enlace'>{enlace.nombreEnlaceNetlify}</p>
             </a>
           </div>
         ))}
