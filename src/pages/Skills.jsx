@@ -1,6 +1,6 @@
 import '../assets/css/skills.css'
 import Wavify from "react-wavify";
-import { SkillCard } from '../components/SkillCard'
+import { Skill } from '../components/Skill';
 
 export const Skills = () => {
 
@@ -8,9 +8,9 @@ export const Skills = () => {
     { logo: 'https://img.icons8.com/?size=100&id=13441&format=png&color=000000', nombre: 'Python' },
     { logo: 'https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000', nombre: 'JavaScript' },
     { logo: 'https://img.icons8.com/?size=100&id=55251&format=png&color=000000', nombre: 'C#' }
-  ];
+  ]
 
-  const WebDesignAndLayout = [
+  const webDesignAndLayout = [
     { logo: 'https://img.icons8.com/?size=100&id=20909&format=png&color=000000', nombre: 'HTML' },
     { logo: 'https://img.icons8.com/?size=100&id=21278&format=png&color=000000', nombre: 'CSS' },
     { logo: 'https://img.icons8.com/?size=100&id=13664&format=png&color=000000', nombre: 'Wordpress' }
@@ -21,25 +21,25 @@ export const Skills = () => {
     { logo: 'https://img.icons8.com/?size=100&id=XPdRFanRZtNK&format=png&color=ffffff', nombre: 'Django' },
     { logo: 'https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=ffffff', nombre: 'Flask' },
     { logo: 'https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000', nombre: 'Bootstrap' }
-  ]
+  ];
 
   const tools = [
-    {logo: 'https://img.icons8.com/?size=100&id=22813&format=png&color=000000', nombre: 'Docker'},
-    {logo: 'https://img.icons8.com/?size=100&id=20906&format=png&color=000000', nombre: 'Git'},
-    {logo: 'https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff', nombre: 'GitHub'},
-    {logo: 'https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000', nombre: 'Postman'},
-    {logo: 'https://img.icons8.com/?size=100&id=YUKvLGE4zROg&format=png&color=000000', nombre: 'Diagramas con UML'}
+    { logo: 'https://img.icons8.com/?size=100&id=22813&format=png&color=000000', nombre: 'Docker' },
+    { logo: 'https://img.icons8.com/?size=100&id=20906&format=png&color=000000', nombre: 'Git' },
+    { logo: 'https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff',  nombre: "GitHub" },
+    { logo: 'https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000',  nombre: 'Postman' },
+    { logo: 'https://img.icons8.com/?size=100&id=YUKvLGE4zROg&format=png&color=000000', nombre: 'Diagramas con UML' }
   ]
 
   const databases = [
-    {logo: 'https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000', nombre: 'MySQL'},
-    {logo: 'https://img.icons8.com/?size=100&id=VMRAbKfEzssG&format=png&color=ffffff', nombre: 'SQLite'},
-    {logo: 'https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000', nombre: 'MongoDB'}
+    { logo: 'https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000', nombre: 'MySQL' },
+    { logo: 'https://img.icons8.com/?size=100&id=VMRAbKfEzssG&format=png&color=ffffff', nombre: 'SQLite' },
+    { logo: 'https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000', nombre: 'MongoDB' }
   ]
 
   const others = [
-    {logo: 'https://img.icons8.com/?size=100&id=13677&format=png&color=000000', nombre: 'Photoshop'},
-    {logo: 'https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000', nombre: 'Canva'}
+    { logo: 'https://img.icons8.com/?size=100&id=13677&format=png&color=000000', nombre: 'Photoshop' },
+    { logo: 'https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000', nombre: 'Canva' }
   ]
 
   return (
@@ -56,12 +56,25 @@ export const Skills = () => {
         }}
       />
       <div className="contenedor-skills">
-        <SkillCard categoriaSkill="Web Design & Layout" skills={WebDesignAndLayout}/>
-        <SkillCard categoriaSkill="Languages" skills={languages} />
-        <SkillCard categoriaSkill="Frameworks" skills={frameworks} />
-        <SkillCard categoriaSkill="Databases" skills={databases}/>
-        <SkillCard categoriaSkill="Tools" skills={tools}/>
-        <SkillCard categoriaSkill="Others" skills={others}/>
+
+        <div className="languages">
+          <h1>Languages</h1>
+          <div className="languages-logos">
+            {languages.map((skillLanguage, index) => (
+              <Skill key={index} logo={skillLanguage.logo} nombre={skillLanguage.nombre} />
+            ))}
+          </div>
+        </div>
+
+        <div className="frameworks">
+          <h1>Frameworks</h1>
+          <div className="languages-logos">
+            {frameworks.map((skillFramework, index) => (
+              <Skill key={index} logo={skillFramework.logo} nombre={skillFramework.nombre} />
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   )

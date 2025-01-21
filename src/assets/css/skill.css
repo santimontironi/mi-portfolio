@@ -1,4 +1,13 @@
-.logo-skill{
+.skill{
+    min-width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill img{
     width: 100px;
 }
 
@@ -7,18 +16,6 @@
     color: #fff;
 }
 
-.skill:hover > .nombre-skill{
+.skill:hover .nombre-skill{
     visibility: visible;
-}
-
-@media (max-width:800px){
-    .logo-skill{
-        width: 70px;
-    }
-}
-
-@media (min-width:801px) and (max-width:1300px){
-    .logo-skill{
-        width: 130px;
-    }
 }

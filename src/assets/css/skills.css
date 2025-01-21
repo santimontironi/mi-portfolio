@@ -19,17 +19,37 @@
     background: linear-gradient(to right, #065a34, #11a74d, #065a34);
 }
 
-
-.contenedor-skills {
+.contenedor-skills{
     display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 55px;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    align-content: center;
+    margin-top: 50px;
 }
 
 .contenedor-skills h1 {
     color: #fff;
+    text-align: center;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.frameworks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.languages-logos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    align-content: center;
+    margin: auto;
 }
 
 .wave {
