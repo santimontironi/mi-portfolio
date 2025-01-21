@@ -44,7 +44,7 @@
 
 @media(max-width:800px){
     .contenedor{
-        background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.10)),url(../img/fondo.jpg);
+        background: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.10)),url(../img/fondo.jpg);
         background-size: cover;
         height: auto;
         padding-bottom: 25px;
