@@ -2,6 +2,7 @@ import '../assets/css/projects.css'
 import imgProyectoFulboApp from '../assets/img/proyectoFulboApp.png'
 import imgWebFullWeb from '../assets/img/proyectoWebFullWeb.png'
 import imgQuizCapitales from '../assets/img/proyectoQuizCapitales.png'
+import imgListaDeTareas from '../assets/img/proyectoListaDeTareas.png'
 import { Project } from '../components/Project'
 
 export const Projects = () => {
@@ -60,6 +61,24 @@ export const Projects = () => {
     }
   ]
 
+  const listaDeTareas = [
+    {
+      fotoProyecto: imgListaDeTareas,
+      tituloProyecto: 'Aplicación de tareas.',
+      descripcionProyecto: "Aplicación sencilla para gestionar tus tareas diarias. Puedes agregar y eliminar tareas, así como marcarlas como completadas. Desarrollada con ReactJS, esta aplicación te ayuda a mantenerte organizado y productivo en tu día a día.",
+      enlacesProyecto: [
+        {
+          urlGitHub: 'https://github.com/santimontironi/lista-tareas-react',
+          iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+          nombreEnlaceGitHub: "Ver en GitHub",
+          urlDespliegue: 'https://appdetareasbysm.netlify.app/',
+          iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
+          nombreEnlaceNetlify: "Ver en Netlify"
+        }
+      ]
+    }
+  ]
+
   return (
 
     <section id='projects'>
@@ -84,6 +103,11 @@ export const Projects = () => {
           ))}
         </div>
 
+        <div className="proyecto">
+          {listaDeTareas.map((proyecto, index) => (
+            <Project key={index} fotoProyecto={proyecto.fotoProyecto} tituloProyecto={proyecto.tituloProyecto} descripcionProyecto={proyecto.descripcionProyecto} enlacesProyecto={proyecto.enlacesProyecto} />
+          ))}
+        </div>
 
       </div>
     </section>
