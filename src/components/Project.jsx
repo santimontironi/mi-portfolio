@@ -3,7 +3,7 @@ import '../assets/css/project.css'
 export const Project = ({ fotoProyecto, tituloProyecto, descripcionProyecto, enlacesProyecto }) => {
   return (
     <div className="project">
-      <img src={fotoProyecto} alt={tituloProyecto} />
+      <img className='imagen-proyecto' src={fotoProyecto} alt={tituloProyecto} />
       <h1>{tituloProyecto}</h1>
       <p>{descripcionProyecto}</p>
       {enlacesProyecto.map((enlace, index) => (
