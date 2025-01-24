@@ -85,25 +85,25 @@ export const Projects = () => {
       <h1 className='tituloProjects'>Projects</h1>
       <div className="contenedor-projects">
 
-        <div className="proyecto">
+        <div className="proyecto" data-aos="zoom-in-down">
           {proyectoFulboApp.map((proyecto, index) => (
             <Project key={index} fotoProyecto={proyecto.fotoProyecto} tituloProyecto={proyecto.tituloProyecto} descripcionProyecto={proyecto.descripcionProyecto} enlacesProyecto={proyecto.enlacesProyecto} />
           ))}
         </div>
 
-        <div className="proyecto">
+        <div className="proyecto" data-aos="zoom-in-down">
           {proyectoWebFullWeb.map((proyecto, index) => (
             <Project key={index} fotoProyecto={proyecto.fotoProyecto} tituloProyecto={proyecto.tituloProyecto} descripcionProyecto={proyecto.descripcionProyecto} enlacesProyecto={proyecto.enlacesProyecto} />
           ))}
         </div>
 
-        <div className="proyecto">
+        <div className="proyecto" data-aos="zoom-in-down">
           {quizCapitales.map((proyecto, index) => (
             <Project key={index} fotoProyecto={proyecto.fotoProyecto} tituloProyecto={proyecto.tituloProyecto} descripcionProyecto={proyecto.descripcionProyecto} enlacesProyecto={proyecto.enlacesProyecto} />
           ))}
         </div>
 
-        <div className="proyecto">
+        <div className="proyecto" data-aos="zoom-in-down">
           {listaDeTareas.map((proyecto, index) => (
             <Project key={index} fotoProyecto={proyecto.fotoProyecto} tituloProyecto={proyecto.tituloProyecto} descripcionProyecto={proyecto.descripcionProyecto} enlacesProyecto={proyecto.enlacesProyecto} />
           ))}

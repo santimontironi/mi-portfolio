@@ -83,7 +83,7 @@
 @media (min-width:801px) and (max-width:1300px){
     #skills{
         height: auto;
-        padding-bottom: 2000px;
+        padding-bottom: 90px;
     }
     .contenedor-skills{
         position: relative;
@@ -93,7 +93,7 @@
     }
     .wave{
         position: absolute;
-        bottom: 0;
+        bottom: -15px;
         height: 200px;
     }
 }
