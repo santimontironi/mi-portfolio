@@ -2,15 +2,8 @@ import { Typewriter } from 'react-simple-typewriter'
 import '../assets/css/main.css'
 import { Nav } from '../components/Nav'
 import miFoto from '../assets/img/foto.png'
-import { useEffect } from 'react'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 export const Main = () => {
-
-    useEffect(() => {
-        Aos.init({duration:4000})
-    },[])
 
     return (
         <section className='contenedor'>

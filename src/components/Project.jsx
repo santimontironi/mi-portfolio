@@ -1,8 +1,9 @@
 import '../assets/css/project.css'
 
 export const Project = ({ fotoProyecto, tituloProyecto, descripcionProyecto, enlacesProyecto }) => {
+
   return (
-    <div className="project">
+    <div className="project" data-aos="zoom-in-down">
       <img className='imagen-proyecto' src={fotoProyecto} alt={tituloProyecto} />
       <h1>{tituloProyecto}</h1>
       <p>{descripcionProyecto}</p>

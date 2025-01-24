@@ -1,18 +1,12 @@
 import '../assets/css/aboutMe.css'
 import miFoto from '../assets/img/foto2.png'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
+
 
 export const AboutMe = () => {
 
-  useEffect(() => {
-    Aos.init({duration:1500})
-  },[])
-
   return (
     <section id='aboutMe'>
-      <h2 className='titulo-about' data-aos="fade-right">About Me</h2>
+      <h2 className='titulo-about'>About Me</h2>
       <div className="container">
         <div className="info" data-aos="zoom-in">
 

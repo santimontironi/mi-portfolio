@@ -44,7 +44,7 @@ export const Skills = () => {
 
   return (
     <section id="skills">
-      <h1 className='titulo-skills' data-aos="fade-right">My skills</h1>
+      <h1 className='titulo-skills'>My skills</h1>
       <Wavify className='wave'
         fill="#058049"
         paused={false}
@@ -57,7 +57,7 @@ export const Skills = () => {
       />
       <div className="contenedor-skills">
 
-        <div className="skill-card">
+        <div className="skill-card" data-aos="zoom-in-down">
           <h1>Languages</h1>
           <div className="skill-logos">
             {languages.map((skillLanguage, index) => (
@@ -66,7 +66,7 @@ export const Skills = () => {
           </div>
         </div>
 
-        <div className="skill-card">
+        <div className="skill-card" data-aos="zoom-in-down">
           <h1>Frameworks</h1>
           <div className="skill-logos">
             {frameworks.map((skillFramework, index) => (
@@ -75,7 +75,7 @@ export const Skills = () => {
           </div>
         </div>
 
-        <div className="skill-card">
+        <div className="skill-card" data-aos="zoom-in-down">
           <h1>Web design and layout</h1>
           <div className="skill-logos">
             {webDesignAndLayout.map((skillWebDesign, index) => (
@@ -84,7 +84,7 @@ export const Skills = () => {
           </div>
         </div>
 
-        <div className="skill-card">
+        <div className="skill-card" data-aos="zoom-in-down">
           <h1>Databases</h1>
           <div className="skill-logos">
             {databases.map((skillDatabase, index) => (
@@ -93,7 +93,7 @@ export const Skills = () => {
           </div>
         </div>
         
-        <div className="skill-card">
+        <div className="skill-card" data-aos="zoom-in-down">
           <h1>Tools</h1>
           <div className="skill-logos">
             {tools.map((skillTool, index) => (
@@ -102,7 +102,7 @@ export const Skills = () => {
           </div>
         </div>
 
-        <div className="skill-card">
+        <div className="skill-card" data-aos="zoom-in-down">
           <h1>Others</h1>
           <div className="skill-logos">
             {others.map((skillOther, index) => (

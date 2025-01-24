@@ -1,13 +1,6 @@
 import '../assets/css/service.css'
-import { useEffect } from 'react'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 export const Service = ({icono,titulo,descripcion}) => {
-
-  useEffect(() => {
-    Aos.init({duration:1000})
-  },[])
 
   return (
     <div className='servicio' data-aos="zoom-in-down">
