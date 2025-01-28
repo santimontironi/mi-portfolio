@@ -3,6 +3,7 @@ import imgProyectoFulboApp from '../assets/img/proyectoFulboApp.png'
 import imgWebFullWeb from '../assets/img/proyectoWebFullWeb.png'
 import imgQuizCapitales from '../assets/img/proyectoQuizCapitales.png'
 import imgListaDeTareas from '../assets/img/proyectoListaDeTareas.png'
+import imgProyectoWordle from '../assets/img/proyectoWordle.png'
 import { Project } from '../components/Project'
 
 export const Projects = () => {
@@ -10,16 +11,16 @@ export const Projects = () => {
   const proyectoFulboApp = [
     {
       fotoProyecto: imgProyectoFulboApp,
-      tituloProyecto: "Organizador de partidos de fútbol.",
-      descripcionProyecto: "FulboApp es una herramienta práctica para organizar partidos de fútbol. Ingresá los nombres de los jugadores, seleccioná la cantidad, y se generan equipos aleatorios al instante. Ideal para tus encuentros con amigos y para ahorrar tiempo al armar los equipos.",
+      tituloProyecto: "Football match organizer.",
+      descripcionProyecto: "FulboApp is a practical tool for organize football matchs. Input players' names, select the quantity, and random teams are generated instantly. Ideal for yout meetings with friends and to save time before the match.",
       enlacesProyecto: [
         {
           urlGitHub: 'https://github.com/santimontironi/fulboApp',
           iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-          nombreEnlaceGitHub: "Ver en GitHub",
+          nombreEnlaceGitHub: "GitHub",
           urlDespliegue: 'https://fulboapp.netlify.app/',
           iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-          nombreEnlaceNetlify: "Ver en Netlify"
+          nombreEnlaceNetlify: "Netlify"
         }
       ]
     }
@@ -28,16 +29,16 @@ export const Projects = () => {
   const proyectoWebFullWeb = [
     {
       fotoProyecto: imgWebFullWeb,
-      tituloProyecto: "Sitio web de mi emprendimiento.",
-      descripcionProyecto: "Sitio oficial de mi emprendimiento, donde ofrezco servicios de desarrollo web y soluciones digitales. Aquí podrás encontrar información sobre los servicios que ofrezco y cómo contactarme para colaborar en futuros proyectos. Mi objetivo es ayudar a las empresas a tener una presencia en línea efectiva y profesional.",
+      tituloProyecto: "My startup's website.",
+      descripcionProyecto: "Official site of my business, where I offer web development services and digital solutions. Here you can find information about the services I offer and how to contact me to collaborate on future projects. My goal is to help businesses have an effective and professional online presence.",
       enlacesProyecto: [
         {
           urlGitHub: 'https://github.com/santimontironi/sitio-web-agencia',
           iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-          nombreEnlaceGitHub: "Ver en GitHub",
+          nombreEnlaceGitHub: "GitHub",
           urlDespliegue: 'https://fullwebportfolio.com/',
           iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-          nombreEnlaceNetlify: "Ver en Netlify"
+          nombreEnlaceNetlify: "Netlify"
         }
       ]
     }
@@ -46,16 +47,16 @@ export const Projects = () => {
   const quizCapitales = [
     {
       fotoProyecto: imgQuizCapitales,
-      tituloProyecto: "Quiz de capitales.",
-      descripcionProyecto: "Aplicación interactiva que pone a prueba tus conocimientos sobre las capitales del mundo. Responde preguntas de opción múltiple y mejora tu geografía mientras te diviertes. Ideal para estudiantes, viajeros y cualquier persona interesada en aprender más sobre nuestro planeta.",
+      tituloProyecto: "Capital quiz.",
+      descripcionProyecto: "Interactive app that puts on test your knowledge about the capitals on the world. Answers questions of multiple choice and updgrade your geography while you fun. Ideal for estudients, travelers and any person interested on learn more about our planet.",
       enlacesProyecto: [
         {
           urlGitHub: 'https://github.com/santimontironi/quiz-de-capitales',
           iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-          nombreEnlaceGitHub: "Ver en GitHub",
+          nombreEnlaceGitHub: "GitHub",
           urlDespliegue: 'https://quizcapitales.netlify.app/',
           iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-          nombreEnlaceNetlify: "Ver en Netlify"
+          nombreEnlaceNetlify: "Netlify"
         }
       ]
     }
@@ -64,8 +65,8 @@ export const Projects = () => {
   const listaDeTareas = [
     {
       fotoProyecto: imgListaDeTareas,
-      tituloProyecto: 'Aplicación de tareas.',
-      descripcionProyecto: "Aplicación sencilla para gestionar tus tareas diarias. Puedes agregar y eliminar tareas, así como marcarlas como completadas. Desarrollada con ReactJS, esta aplicación te ayuda a mantenerte organizado y productivo en tu día a día.",
+      tituloProyecto: 'Tasks applicaction.',
+      descripcionProyecto: "Simple app for manage your diary tasks. You can add and delete taks, ass well ass check them how completed. Developed whit ReactJS, this application helps you to keeping organized and productiv in your day to day.",
       enlacesProyecto: [
         {
           urlGitHub: 'https://github.com/santimontironi/lista-tareas-react',
@@ -76,6 +77,14 @@ export const Projects = () => {
           nombreEnlaceNetlify: "Ver en Netlify"
         }
       ]
+    }
+  ]
+
+  const proyectoWordle = [
+    {
+      fotoProyecto: imgProyectoWordle,
+      tituloProyecto: "Wordle game",
+      descripcionProyecto: ""
     }
   ]
 
