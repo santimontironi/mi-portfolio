@@ -3,6 +3,7 @@ import { AboutMe } from "./pages/AboutMe"
 import { Services } from "./pages/Services"
 import { Skills } from "./pages/Skills"
 import { Projects } from "./pages/Projects"
+import { Contact } from "./pages/Contact"
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -20,6 +21,7 @@ const App = () => {
       <Services />
       <Skills />
       <Projects />
+      <Contact />
     </>
   )
 }

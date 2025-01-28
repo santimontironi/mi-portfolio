@@ -148,7 +148,7 @@ export const Projects = () => {
           ))}
         </div>
 
-        <div className="proyecto">
+        <div className="proyecto" data-aos="zoom-in-down">
           {proyectoWordle.map((proyecto,index) => (
             <Project
               key={index}
