@@ -71,10 +71,10 @@ export const Projects = () => {
         {
           urlGitHub: 'https://github.com/santimontironi/lista-tareas-react',
           iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-          nombreEnlaceGitHub: "Ver en GitHub",
+          nombreEnlaceGitHub: "GitHub",
           urlDespliegue: 'https://appdetareasbysm.netlify.app/',
           iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-          nombreEnlaceNetlify: "Ver en Netlify"
+          nombreEnlaceNetlify: "Netlify"
         }
       ]
     }
@@ -84,7 +84,17 @@ export const Projects = () => {
     {
       fotoProyecto: imgProyectoWordle,
       tituloProyecto: "Wordle game",
-      descripcionProyecto: ""
+      descripcionProyecto: "This game it's a clon of the famous game Wordle. This game is about guess a word, when your send the word you will see clues as to some letters are correct or not. You have 5 attempts for guess the word. Try it!",
+      enlacesProyecto: [
+        {
+          urlGitHub: 'https://github.com/santimontironi/wordle-game',
+          iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+          nombreEnlaceGitHub: "GitHub",
+          urlDespliegue: 'https://wordlegamebysm.netlify.app/',
+          iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
+          nombreEnlaceNetlify: "Netlify"
+        }
+      ]
     }
   ]
 
@@ -138,6 +148,17 @@ export const Projects = () => {
           ))}
         </div>
 
+        <div className="proyecto">
+          {proyectoWordle.map((proyecto,index) => (
+            <Project
+              key={index}
+              fotoProyecto={proyecto.fotoProyecto}
+              tituloProyecto={proyecto.tituloProyecto}
+              descripcionProyecto={proyecto.descripcionProyecto}
+              enlacesProyecto={proyecto.enlacesProyecto}
+            />
+          ))}
+        </div>
       </div>
     </section>
   )
