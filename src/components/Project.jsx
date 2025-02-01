@@ -1,4 +1,4 @@
-import '../assets/css/project.css'
+import '../assets/css/cssComponents/project.css'
 
 export const Project = ({ fotoProyecto, tituloProyecto, descripcionProyecto, enlacesProyecto }) => {
 

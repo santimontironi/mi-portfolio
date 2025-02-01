@@ -1,4 +1,4 @@
-import '../assets/css/skills.css'
+import '../assets/css/cssPages/skills.css'
 import Wavify from "react-wavify";
 import { Skill } from '../components/Skill';
 

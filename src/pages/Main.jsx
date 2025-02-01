@@ -1,5 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter'
-import '../assets/css/main.css'
+import '../assets/css/cssPages/main.css'
 import { Nav } from '../components/Nav'
 import miFoto from '../assets/img/foto.png'
 

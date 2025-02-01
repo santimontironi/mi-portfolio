@@ -1,4 +1,4 @@
-import '../assets/css/projects.css'
+import '../assets/css/cssPages/projects.css'
 import imgProyectoFulboApp from '../assets/img/proyectoFulboApp.png'
 import imgWebFullWeb from '../assets/img/proyectoWebFullWeb.png'
 import imgQuizCapitales from '../assets/img/proyectoQuizCapitales.png'

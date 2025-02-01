@@ -1,4 +1,4 @@
-import '../assets/css/aboutMe.css'
+import '../assets/css/cssPages/aboutMe.css'
 import miFoto from '../assets/img/foto2.png'
 
 

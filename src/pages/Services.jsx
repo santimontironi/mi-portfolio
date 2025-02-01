@@ -1,4 +1,4 @@
-import '../assets/css/services.css'
+import '../assets/css/cssPages/services.css'
 import { Service } from '../components/Service'
 
 export const Services = () => {

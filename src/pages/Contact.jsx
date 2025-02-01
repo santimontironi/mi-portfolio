@@ -1,4 +1,4 @@
-import '../assets/css/contact.css'
+import '../assets/css/cssPages/contact.css'
 
 export const Contact = () => {
   return (

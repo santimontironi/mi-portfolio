@@ -1,4 +1,4 @@
-import '../assets/css/skill.css';
+import '../assets/css/cssComponents/skill.css';
 
 export const Skill = ({ logo, nombre}) => {
   return (

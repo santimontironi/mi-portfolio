@@ -1,7 +1,7 @@
 .contenedor{
     max-width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.40)),url(../img/fondo.jpg);
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.40)),url(/src/assets/img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

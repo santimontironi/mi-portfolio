@@ -1,4 +1,4 @@
-import '../assets/css/service.css'
+import '../assets/css/cssComponents/service.css'
 
 export const Service = ({icono,titulo,descripcion}) => {
 
