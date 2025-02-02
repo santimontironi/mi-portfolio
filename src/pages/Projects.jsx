@@ -12,7 +12,7 @@ export const Projects = () => {
     {
       fotoProyecto: imgProyectoFulboApp,
       tituloProyecto: "Football match organizer.",
-      descripcionProyecto: "FulboApp is a practical tool for organize football matchs. Input players' names, select the quantity, and random teams are generated instantly. Ideal for yout meetings with friends and to save time before the match.",
+      descripcionProyecto: "FulboApp is a practical tool for organize football matchs. Input players' names, select the quantity, and random teams are generated instantly. Ideal for your meetings with friends and to save time before the match.",
       enlacesProyecto: [
         {
           urlGitHub: 'https://github.com/santimontironi/fulboApp',
