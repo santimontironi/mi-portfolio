@@ -48,6 +48,7 @@
 
 .enlaces-proyecto a:hover .nombre-enlace{
     visibility: visible;
+    text-align: center;
 }
 
 .project:hover{
