@@ -31,6 +31,7 @@
 @media(max-width:800px){
     #contact{
         height: auto;
+        padding-bottom: 70px;
     }
     .tituloContact{
         width: 330px;
@@ -44,5 +45,8 @@
         align-items: center;
         justify-content: center;
         gap: 50px;
+        height: auto;
+        position: initial;
+        margin-top: 100px;
     }
 }
