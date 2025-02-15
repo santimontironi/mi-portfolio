@@ -35,3 +35,29 @@
 .link p{
     color:#fff;
 }
+
+@media(max-width:800px){
+    .contact-link{
+        position: initial;
+        width: 300px;
+        align-items: center;
+        gap: 0px;
+        padding: 20px;
+        height: auto;
+    }
+    .titulo-contact-link{
+        font-size: 50px;
+        padding-bottom: 20px;
+        border-bottom: solid 2px #fff;
+    }
+    .link{
+        align-items: center;
+        flex-direction: column;
+    }
+    .link img{
+        width: 80px;
+    }
+    .link p{
+        font-size: 19px;
+    }
+}

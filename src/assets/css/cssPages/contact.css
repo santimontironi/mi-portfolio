@@ -27,3 +27,21 @@
     background: linear-gradient(150deg,#1c9c67,#0f8a57);
     margin: auto;
 }
+
+@media(max-width:800px){
+    #contact{
+        height: auto;
+    }
+    .tituloContact{
+        width: 330px;
+        font-size: 35px;
+        position: relative;
+        top: 40px;
+    }
+    .contenido-contact{
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
