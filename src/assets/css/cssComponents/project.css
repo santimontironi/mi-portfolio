@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 6px;
-    border: solid 1px #fff;
+    border: solid 1px #ffffff;
     padding: 12px;
 }
 
@@ -52,8 +52,8 @@
 }
 
 .project:hover{
-    transition: .8s;
-    transform: scale(1.06);
+    transition: all .8s;
+    background: linear-gradient(#0c6d33,#000)
 }
 
 .project:not(:hover){

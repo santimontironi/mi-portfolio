@@ -27,6 +27,11 @@ input[type="submit"]{
     width: 150px;
     padding: 10px;
     margin: auto;
-    background: linear-gradient(#101010,#202020);
     color: #fff;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+input[type="submit"]:hover{
+    opacity: 80%;
 }
