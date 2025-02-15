@@ -35,3 +35,15 @@ input[type="submit"]{
 input[type="submit"]:hover{
     opacity: 80%;
 }
+
+@media(max-width:800px){
+    .contenedor-form{
+        height: auto;
+    }
+    form{
+        width: 300px;
+    }
+    input[type="text"]{
+        width: 100%;
+    }
+}
