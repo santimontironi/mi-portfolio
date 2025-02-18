@@ -20,10 +20,11 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .contenido-footer .miInfo h1{
-    color: #15e066;
+    color: #fff;
 }
 
 .contenido-footer .miInfo .logoBlanco{
@@ -51,10 +52,11 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 .contenido-footer .links-rapidos h1{
-    color: #15e066;
+    color: #fff;
 }
 
 .contenido-footer .links-rapidos ul{
@@ -73,6 +75,10 @@ footer{
 .txt-copyright{
     text-align: center;
     color: #fff;
+}
+
+.txt-copyright a{
+    color: #3acc8a;
 }
 
 @media(max-width:800px){
