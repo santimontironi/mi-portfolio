@@ -8,7 +8,7 @@ export const Main = () => {
     return (
         <section className='contenedor'>
             <Nav />
-            <main id="inicio">
+            <main id="home">
                 <div className="contenido" data-aos="zoom-in-down">
                     <img src={miFoto} alt="Foto perfil" />
                     <h1>

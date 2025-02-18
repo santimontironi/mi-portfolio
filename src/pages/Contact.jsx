@@ -6,7 +6,7 @@ export const Contact = () => {
   return (
     <section id="contact">
         <h1 className='tituloContact'>Contact to me</h1>
-        <div className="contenido-contact">
+        <div className="contenido-contact" data-aos="zoom-in-down">
           <ContactLinks/>
           <Form/>
         </div>

@@ -12,7 +12,7 @@ export const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active hvr-bounce-to-bottom" aria-current="page" href="#inicio">Home</a>
+              <a className="nav-link active hvr-bounce-to-bottom" aria-current="page" href="#home">Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link hvr-bounce-to-bottom" href="#aboutMe">About me</a>
