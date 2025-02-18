@@ -84,7 +84,7 @@ export const Projects = () => {
     {
       fotoProyecto: imgProyectoWordle,
       tituloProyecto: "Wordle game",
-      descripcionProyecto: "This game it's a clon of the famous game Wordle. This game is about guess a word, when your send the word you will see clues as to some letters are correct or not. You have 5 attempts for guess the word. Try it!",
+      descripcionProyecto: "This game it's a clon of the famous game Wordle. Is about guess a word, when your send the word and you will see clues as to some letters are correct or not. You have 5 attempts for guess the word. Try it!",
       enlacesProyecto: [
         {
           urlGitHub: 'https://github.com/santimontironi/wordle-game',
