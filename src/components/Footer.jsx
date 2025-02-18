@@ -1,4 +1,5 @@
 import '../assets/css/cssComponents/footer.css'
+import logo from '../assets/img/logo3.png'
 
 export const Footer = () => {
   return (
@@ -6,7 +7,7 @@ export const Footer = () => {
         <div className="contenido-footer">
             <div className="miInfo">
                 <h1>Santiago Montironi</h1>
-                <img className='logoBlanco' src="/src/assets/img/logo3.png" alt="" />
+                <img className='logoBlanco' src={logo} alt="" />
                 <div className="enlaces-contacto">
                     <a href="https://github.com/santimontironi">
                         <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff" alt="logo-git" />

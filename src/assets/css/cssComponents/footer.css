@@ -29,7 +29,7 @@ footer{
 
 .contenido-footer .miInfo .logoBlanco{
     width: 220px;
-    filter: invert(100%) brightness(200%) grayscale(100%);
+    filter: invert(100%) brightness(200%);
     position: relative;
     bottom: 30px;
 }
