@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer>
         <div className="contenido-footer">
             <div className="miInfo">
-                <h1>Santiago <span>Montironi</span></h1>
+                <h1>Santiago Montironi</h1>
                 <img className='logoBlanco' src="/src/assets/img/logo3.png" alt="" />
                 <div className="enlaces-contacto">
                     <a href="https://github.com/santimontironi">

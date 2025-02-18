@@ -49,6 +49,8 @@ footer{
 .contenido-footer .links-rapidos{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenido-footer .links-rapidos h1{
@@ -71,4 +73,37 @@ footer{
 .txt-copyright{
     text-align: center;
     color: #fff;
+}
+
+@media(max-width:800px){
+    footer{
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .contenido-footer{
+        flex-direction: column;
+    }
+    .contenido-footer .miInfo{
+        text-align: center;
+    }
+    .contenido-footer .miInfo h1{
+        font-size: 40px;
+    }
+    .contenido-footer .links-rapidos h1{
+        font-size: 40px;
+    }
+    .contenido-footer .links-rapidos ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-content: center;
+        align-content: center;
+        gap: 20px;
+    }
+    .contenido-footer .links-rapidos ul li{
+        width: 120px;
+    }
+    .txt-copyright{
+        font-size: 15px;
+        margin-top: 25px;
+    }
 }
