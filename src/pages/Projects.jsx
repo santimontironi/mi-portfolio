@@ -103,7 +103,7 @@ export const Projects = () => {
     {
       fotoProyecto: imgProyectoCrudDjango,
       tituloProyecto: "Tasks crud",
-      descripcionProyecto:"This application consists in a CRUD of tasks, where you can login or register and later add tasks,edit,check like completed and see all tasks completed. In this project I used Django and database SQL and layout with HTML,CSS and Bootstrap.",
+      descripcionProyecto:"This application consists in a CRUD of tasks, where you can login or register and later add tasks, edit, check like completed and see all tasks completed. In this project I used Django and database SQL and layout with HTML,CSS and Bootstrap.",
       enlacesProyecto:[
         {
           urlGitHub: "https://github.com/santimontironi/CRUD-Django",
