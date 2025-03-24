@@ -4,6 +4,7 @@ import imgWebFullWeb from '../assets/img/proyectoWebFullWeb.png'
 import imgQuizCapitales from '../assets/img/proyectoQuizCapitales.png'
 import imgListaDeTareas from '../assets/img/proyectoListaDeTareas.png'
 import imgProyectoWordle from '../assets/img/proyectoWordle.png'
+import imgProyectoCrudDjango from '../assets/img/proyectoCrudDjango.png'
 import { Project } from '../components/Project'
 
 export const Projects = () => {
@@ -98,6 +99,24 @@ export const Projects = () => {
     }
   ]
 
+  const proyectoCrudDjango = [
+    {
+      fotoProyecto: imgProyectoCrudDjango,
+      tituloProyecto: "Tasks crud",
+      descripcionProyecto:"This application consists in a CRUD of tasks, where you can login or register and later add tasks,edit,check like completed and see all tasks completed. In this project I used Django and database SQL and layout with HTML,CSS and Bootstrap.",
+      enlacesProyecto:[
+        {
+          urlGitHub: "https://github.com/santimontironi/CRUD-Django",
+          iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+          nombreEnlaceGitHub: "GitHub",
+          urlDespliegue: 'https://mysite-9s4w.onrender.com/',
+          iconoDespliegue: 'https://pbs.twimg.com/profile_images/1735429515541938176/zOO1N7Su_400x400.jpg',
+          nombreEnlaceNetlify: 'Render'
+        }
+      ]
+    }
+  ]
+
   return (
 
     <section id='projects'>
@@ -157,6 +176,18 @@ export const Projects = () => {
               descripcionProyecto={proyecto.descripcionProyecto}
               enlacesProyecto={proyecto.enlacesProyecto}
             />
+          ))}
+        </div>
+
+        <div className="proyecto" data-aos="zoom-in-down">
+          {proyectoCrudDjango.map((proyecto,index) => (
+              <Project
+                key={index}
+                fotoProyecto={proyecto.fotoProyecto}
+                tituloProyecto={proyecto.tituloProyecto}
+                descripcionProyecto={proyecto.descripcionProyecto}
+                enlacesProyecto={proyecto.enlacesProyecto}
+              />
           ))}
         </div>
       </div>
