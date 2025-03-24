@@ -29,7 +29,7 @@ export const Footer = () => {
             </div>
         </div>
         <div className="txt-copyright">
-            <p>Sitio web desarrollado por <a href="https://github.com/santimontironi">Santiago Montironi</a></p>
+            <p>Portfolio developed by <a href="https://github.com/santimontironi">Santiago Montironi</a></p>
         </div>
     </footer>
   )
