@@ -6,8 +6,7 @@ export const Skills = () => {
 
   const languages = [
     { logo: 'https://img.icons8.com/?size=100&id=13441&format=png&color=000000', nombre: 'Python' },
-    { logo: 'https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000', nombre: 'JavaScript' },
-    { logo: 'https://img.icons8.com/?size=100&id=55251&format=png&color=000000', nombre: 'C#' }
+    { logo: 'https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000', nombre: 'JavaScript' }
   ]
 
   const webDesignAndLayout = [
@@ -21,7 +20,9 @@ export const Skills = () => {
     { logo: 'https://img.icons8.com/?size=100&id=XPdRFanRZtNK&format=png&color=ffffff', nombre: 'Django' },
     { logo: 'https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=ffffff', nombre: 'Flask' },
     { logo: 'https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000', nombre: 'Bootstrap' },
-    { logo: 'https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000', nombre: 'Tailwind'}
+    { logo: 'https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000', nombre: 'Tailwind'},
+    { logo: 'https://img.icons8.com/?size=100&id=54087&format=png&color=000000', nombre: 'NodeJS'},
+    { logo: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000', nombre: 'ExpressJS'}
   ];
 
   const tools = [
@@ -35,6 +36,7 @@ export const Skills = () => {
   const databases = [
     { logo: 'https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000', nombre: 'MySQL' },
     { logo: 'https://img.icons8.com/?size=100&id=VMRAbKfEzssG&format=png&color=ffffff', nombre: 'SQLite' },
+    { logo: 'https://img.icons8.com/?size=100&id=Pv4IGT0TSpt8&format=png&color=0000000', nombre: 'PostgreSQL'},
     { logo: 'https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000', nombre: 'MongoDB' }
   ]
 
