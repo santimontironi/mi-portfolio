@@ -15,13 +15,16 @@ export const Skills = () => {
     { logo: 'https://img.icons8.com/?size=100&id=13664&format=png&color=000000', nombre: 'Wordpress' }
   ]
 
-  const frameworks = [
+  const frontendFrameworks = [
     { logo: 'https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000', nombre: 'React' },
+    { logo: 'https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000', nombre: 'Bootstrap' },
+    { logo: 'https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000', nombre: 'Tailwind'}
+  ];
+
+  const backendFrameworks = [
     { logo: 'https://img.icons8.com/?size=100&id=XPdRFanRZtNK&format=png&color=ffffff', nombre: 'Django' },
     { logo: 'https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=ffffff', nombre: 'Flask' },
-    { logo: 'https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000', nombre: 'Bootstrap' },
-    { logo: 'https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000', nombre: 'Tailwind'},
-    { logo: 'https://img.icons8.com/?size=100&id=54087&format=png&color=ffffff', nombre: 'NodeJS'},
+    { logo: 'https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000', nombre: 'NodeJS'},
     { logo: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff', nombre: 'ExpressJS'}
   ];
 
@@ -30,7 +33,8 @@ export const Skills = () => {
     { logo: 'https://img.icons8.com/?size=100&id=20906&format=png&color=000000', nombre: 'Git' },
     { logo: 'https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff',  nombre: "GitHub" },
     { logo: 'https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000',  nombre: 'Postman' },
-    { logo: 'https://img.icons8.com/?size=100&id=YUKvLGE4zROg&format=png&color=000000', nombre: 'Diagramas con UML' }
+    { logo: 'https://img.icons8.com/?size=100&id=YUKvLGE4zROg&format=png&color=000000', nombre: 'Diagramas con UML' },
+    { logo: 'https://img.icons8.com/?size=100&id=24895&format=png&color=000000', nombre: 'Npm'}
   ]
 
   const databases = [
@@ -70,9 +74,18 @@ export const Skills = () => {
         </div>
 
         <div className="skill-card" data-aos="zoom-in-down">
-          <h1>Frameworks</h1>
+          <h1>Frontend frameworks</h1>
           <div className="skill-logos">
-            {frameworks.map((skillFramework, index) => (
+            {frontendFrameworks.map((skillFramework, index) => (
+              <Skill key={index} logo={skillFramework.logo} nombre={skillFramework.nombre} />
+            ))}
+          </div>
+        </div>
+
+        <div className="skill-card" data-aos="zoom-in-down">
+          <h1>Backend frameworks</h1>
+          <div className="skill-logos">
+            {backendFrameworks.map((skillFramework, index) => (
               <Skill key={index} logo={skillFramework.logo} nombre={skillFramework.nombre} />
             ))}
           </div>
