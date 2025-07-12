@@ -7,7 +7,7 @@ export const ContactLinks = () => {
       <div className="links">
         <div className="link">
           <img src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000" alt="logo-gmail" />
-          <p>santiimontironi@gmail.com</p>
+          <p>santiagomontironi21@gmail.com</p>
         </div>
         <div className="link">
           <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff" alt="logo-gitHub" />
