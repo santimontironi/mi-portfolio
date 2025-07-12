@@ -21,8 +21,8 @@ export const Skills = () => {
     { logo: 'https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=ffffff', nombre: 'Flask' },
     { logo: 'https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000', nombre: 'Bootstrap' },
     { logo: 'https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000', nombre: 'Tailwind'},
-    { logo: 'https://img.icons8.com/?size=100&id=54087&format=png&color=000000', nombre: 'NodeJS'},
-    { logo: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000', nombre: 'ExpressJS'}
+    { logo: 'https://img.icons8.com/?size=100&id=54087&format=png&color=ffffff', nombre: 'NodeJS'},
+    { logo: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff', nombre: 'ExpressJS'}
   ];
 
   const tools = [

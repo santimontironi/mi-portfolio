@@ -17,7 +17,7 @@ export const Main = () => {
                     <span className='typeWritter'>
                         <Typewriter
                             words={[
-                                "Frontend and Backend Web Developer",
+                                "FullStack developer",
                                 "From imagination to Software",
                                 "Effective digital solutions"
                             ]}
