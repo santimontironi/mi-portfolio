@@ -1,5 +1,6 @@
 #skills {
-    height: 215vh;
+    height: auto;
+    padding-bottom: 50px;
     width: 100%;
     position: relative;
     background-color: #0f0f0f;
