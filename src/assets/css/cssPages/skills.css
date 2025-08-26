@@ -1,5 +1,9 @@
 #skills {
+<<<<<<< HEAD
     height: 220vh;
+=======
+    height: 215vh;
+>>>>>>> 7523bdabbcea9ca3a841361d24d9d3840b98fac8
     width: 100%;
     position: relative;
     background-color: #0f0f0f;
@@ -59,7 +63,8 @@
 
 @media (min-width:1200px) {
     #skills {
-        height: 180vh;
+        height: auto;
+        padding-bottom: 60px;
     }
     .contenedor-skills {
         display: grid;

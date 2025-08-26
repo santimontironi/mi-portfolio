@@ -1,11 +1,10 @@
 import '../assets/css/cssComponents/nav.css'
-import logo from '../assets/img/logo3.png'
 
 export const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg" id='menu'>
       <div className="container-fluid">
-        <a className="navbar-brand logo" href="#inicio"><img src={logo} alt="" /></a>
+        <a className="navbar-brand logo" href="#inicio"><img src='/img/logo3.png' alt="" /></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
