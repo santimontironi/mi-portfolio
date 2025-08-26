@@ -1,6 +1,5 @@
 #skills {
-    min-height: auto;
-    max-height: 210vh;
+    height: 210vh;
     width: 100%;
     position: relative;
     background-color: #0f0f0f;
@@ -8,10 +7,10 @@
 
 .titulo-skills {
     display: inline-block;
-    margin-top: 30px;
-    font-size: 40px;
+    margin-top: 40px;
+    font-size: 35px;
     color: #fff;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -19,14 +18,13 @@
     background: linear-gradient(to right, #065a34, #11a74d, #065a34);
 }
 
-.contenedor-skills{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    place-content: center;
-    align-content: center;
-    margin-top: 50px;
-    gap: 10px;
-    padding-bottom: 80px;
+.contenedor-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
 }
 
 .contenedor-skills h1 {
@@ -34,15 +32,15 @@
     text-align: center;
 }
 
-.skill-card{
+.skill-card {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.skill-logos{
+.skill-logos {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-content: center;
     align-content: center;
 }
@@ -53,47 +51,27 @@
     left: 0;
 }
 
-@media (max-width:800px){
-    #skills{
-        height: auto;
-        padding-bottom: 2270px;
-    }
-    .titulo-skills{
-        width: 330px;
-        font-size: 35px;
-    }
-    .contenedor-skills{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .skill-logos{
-        grid-template-columns: repeat(2,1fr);
-    }
-    .wave{
-        position: absolute;
-        bottom: -10px;
-        height: 200px;
+@media (min-width:678px) {
+    #skills {
+        height: 200vh;
     }
 }
 
-@media (min-width:801px) and (max-width:1300px){
-    #skills{
-        height: auto;
-        padding-bottom: 90px;
+@media (min-width:1200px) {
+    #skills {
+        height: 180vh;
     }
-    .contenedor-skills{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
+    .contenedor-skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        place-items: center;
     }
-    .wave{
-        position: absolute;
-        bottom: -15px;
-        height: 200px;
+}
+
+@media (min-width:1440px) {
+    #skills {
+        height: 160vh;
+        gap: 40px;
     }
 }

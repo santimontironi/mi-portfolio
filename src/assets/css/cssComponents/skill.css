@@ -1,5 +1,5 @@
 .skill{
-    width: 160px;
+    width: 100px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .skill img{
-    width: 90px;
+    width: 70px;
 }
 
 .nombre-skill{
@@ -18,4 +18,31 @@
 
 .skill:hover .nombre-skill{
     visibility: visible;
+}
+
+@media (min-width:678px){
+    .skill{
+        width: 120px;
+    }
+    .skill img{
+        width: 90px;
+    }
+}
+
+@media (min-width:1200px){
+    .skill{
+        width: 170px;
+    }
+    .skill img{
+        width: 100px;
+    }
+}
+
+@media (min-width:1440px){
+    .skill{
+        width: 150px;
+    }
+    .skill img{
+        width: 100px;
+    }
 }
