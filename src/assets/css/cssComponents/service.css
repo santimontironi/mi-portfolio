@@ -41,18 +41,16 @@
     color: #fff;
 }
 
-@media (max-width:800px){
+@media (min-width: 678px){
     .servicio{
-        max-width: 280px;
-        min-height: 100px;
-        padding: 10px;
+        width: 280px;
+        height: 260px;
     }
-    .servicio .logo{
-        width: 60px;
-        height: 60px;
-        font-size: 35px;
-    }
-    .servicio h2{
-        font-size: 30px;
+}
+
+@media (min-width: 1200px){
+    .servicio{
+        width: 300px;
+        min-height: 100%;
     }
 }

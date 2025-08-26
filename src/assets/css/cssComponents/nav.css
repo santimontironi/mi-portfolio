@@ -43,9 +43,11 @@
 @media(min-width:678px) {
     #menu ul {
         flex-direction: row;
+        margin-right: 40px;
     }
     #menu ul li a {
-        font-size: 20px;
+        margin-left: 12px;
+        font-size: 17px;
     }
 }
 
@@ -58,6 +60,7 @@
         margin-right: 40px;
     }
     #menu ul li a {
-        font-size: 20px;
+        margin-left: 20px;
+        font-size: 17px;
     }
 }

@@ -1,63 +1,53 @@
-#services{
+#services {
     max-width: 100%;
-    height: auto;
+    height: 190vh;
     background: #0f0f0f;
 }
 
-.titulo-services{
-    font-size: 40px;
+.titulo-services {
+    font-size: 35px;
     color: #fff;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     text-align: center;
-    background: linear-gradient(to right,#065a34,#11a74d,#065a34);
+    background: linear-gradient(to right, #065a34, #11a74d, #065a34);
 }
 
-.contenedor-servicios{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.contenedor-servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
-    place-items: center;
-    place-content: center;
-    margin-top: 20px;
 }
 
-@media (max-width: 800px){
-    #services{
-        height: auto;
+@media (min-width: 678px) {
+    #services {
+        height: 120vh;
     }
-    .titulo-services{
-        width: 330px;
-        font-size: 35px;
-        position: relative;
-        top: 30px;
-    }
-    .contenedor-servicios{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        margin-top: 50px;
-    }
-}
-
-@media (min-width: 801px) and (max-width:1300px){
-    .titulo-services{
-        position: relative;
-        top: 60px;
-    }
-    #services{
-        height: auto;
-    }
-    .contenedor-servicios{
+    .contenedor-servicios {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        place-items: center;
         place-content: center;
-        align-content: center;
-        margin-top: 80px;
+        margin-top: 200px;
     }
-    .titulo-services{
-        background-attachment: initial;
+}
+
+@media (min-width: 1200px) {
+    #services {
+        height: 100vh;
     }
+    .contenedor-servicios {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    
 }
