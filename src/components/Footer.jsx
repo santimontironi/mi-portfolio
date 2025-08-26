@@ -1,5 +1,5 @@
 import '../assets/css/cssComponents/footer.css'
-import logo from '../assets/img/logo3.png'
+import logo from '/img/logo3.png'
 
 export const Footer = () => {
   return (

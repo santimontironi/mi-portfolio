@@ -1,6 +1,4 @@
 import '../assets/css/cssPages/aboutMe.css'
-import miFoto from '../assets/img/foto2.png'
-
 
 export const AboutMe = () => {
 
@@ -18,7 +16,7 @@ export const AboutMe = () => {
         </div>
         <div className="foto">
           <figure data-aos="zoom-in-right">
-            <img src={miFoto} alt="Foto personal" />
+            <img src='/img/foto2.png' alt="Foto personal" />
           </figure>
         </div>
       </div>
