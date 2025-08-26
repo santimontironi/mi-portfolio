@@ -1,17 +1,17 @@
 #aboutMe{
     max-width: 100%;
-    height: 500px;
+    height: 120vh;
     background-color: #0f0f0f;
     position: relative;
 }
 
 .titulo-about{
-    font-size: 40px;
+    font-size: 35px;
     color: #fff;
     position: absolute;
     top: 30px;
     left: 0;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -21,23 +21,22 @@
 
 .container{
     display: flex;
+    flex-direction: column;
     padding: 40px;
-    gap: 30px;
 }
 
 .foto figure{
     position: relative;
-    border: solid 3px #065a34;
-    border-radius: 20px;
     box-shadow: 2px 5px 20px #000000;
+    width: 300px;
+    height: 350px;
 }
 
 .foto img{
-    position: relative;
-    right: 20px;
-    top: 20px;
-    width: 350px;
-    height: 400px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 3px #06a75e;
     border-radius: 20px;
 }
 
@@ -47,8 +46,13 @@
     justify-content: center;
     align-items: flex-start;
     margin-top: 16px;
-    padding-left: 15px;
     color: #fff;
+    height: 450px;
+}
+
+.info p{
+    width: 300px;
+    font-size: 16px;
 }
 
 .info span{
@@ -77,39 +81,40 @@
     }
 }
 
-@media(max-width:800px){
+@media(min-width:678px){
     #aboutMe{
-        height: auto;
-    }
-    .titulo-about{
-        width: 330px;
-        font-size: 35px;
+        height: 80vh;
     }
     .container{
-        flex-direction: column;
-    }
-    .info{
-        padding-left: 0;
-        margin-top: 70px;
-    }
-    .btn-pdf{
-        margin-bottom: 30px;
+        height: 650px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
     }
 }
 
-@media (min-width:801px) and (max-width:1300px){
-    #aboutMe{
-        height: auto;
+@media (min-width:1200px){
+    .container{
+        width: 1200px;
+        height: 650px;
+        gap: 30px;
+        justify-content: space-between;
     }
-    .info{
-        margin-top: 70px;
+    .info p{
+        font-size: 22px;
+        width: 650px;
     }
-    @keyframes movimiento{
-        0%,100%{
-            transform: translateY(7px);
-        }
-        50%{
-            transform: translateY(16px);
-        }
+    .foto figure{
+        width: 350px;
+        height: 400px;
     }
+    .foto img{
+        border: solid 4px #06a75e;
+        border-radius: 25px;
+    }
+}
+
+@media (min-width:1440px){
+
 }

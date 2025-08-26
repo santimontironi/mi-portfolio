@@ -18,7 +18,7 @@ export const Main = () => {
                         <Typewriter
                             words={[
                                 "FullStack developer",
-                                "From imagination to Software",
+                                "Continuous learner",
                                 "Effective digital solutions"
                             ]}
                             loop

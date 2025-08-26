@@ -8,7 +8,8 @@
 }
 
 .contenido{
-    min-height: 350px;
+    height: 400px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +28,7 @@
 }
 
 .contenido h1{
-    font-size: 70px;
+    font-size: 30px;
     color: #fff;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -38,60 +39,46 @@
 }
 
 .typeWritter{
+    width: 300px;
+    text-align: center;
     color: #ffffff;
-    font-size: 27px;
+    font-size: 20px;
 }
 
-@media(max-width:800px){
-    .contenedor{
-        background: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.10)),url(/src/assets/img/fondo.jpg);
-        background-size: cover;
-        height: auto;
-        padding-bottom: 120px;
-        background-attachment: initial;
-    }
-    .contenido img{
-        margin-top: 40px;
-        width: 240px;
-    }
-    .contenido h1{
-        font-size: 32px;
-    }
-    .typeWritter{
-        font-size: 16px;
-    }
-}
-
-@media(min-width:801px) and (max-width:1200px){
+@media(min-width:678px){
     .contenedor{
         height: auto;
         max-width: 100%;
         background-attachment: initial;
     }
     .contenido h1{
-        font-size: 70px;
+        font-size: 50px;
     }
     .contenido{
-        height: 700px;
+        height: 600px;
     }
     .contenido img{
-        width: 320px;
+        width: 260px;
         margin-bottom: 15px;
     }
     .typeWritter{
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 21px;
     }
 }
 
-@media(min-width:1520px){
-    .contenido{
-        height: 500px;
+@media(min-width:1200px){
+    .contenedor{
+        height: calc(110vh - 100px);
     }
-    .contenido img{
-        width: 250px;
+    .contenido{
+        height: 600px;
     }
     .contenido h1{
-        font-size: 80px;
+        font-size: 70px;
+    }
+    .typeWritter{
+        font-size: 30px;
+        width: 400px;
     }
 }
