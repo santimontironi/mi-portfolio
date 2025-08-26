@@ -4,3 +4,7 @@
     user-select: none;
     font-family: "Parkinsans", sans-serif;
 }
+
+body{
+    scroll-behavior: smooth;
+}
