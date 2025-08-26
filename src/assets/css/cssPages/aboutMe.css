@@ -97,7 +97,7 @@
 
 @media (min-width:1200px){
     #aboutMe{
-        height: 80vh;
+        height: auto;
     }
     .container{
         width: 1000px;

@@ -43,11 +43,12 @@
         height: 110vh;
     }
     .contenido-contact{
-        position: relative;
+        top: 70px;
         flex-direction: row;
-        width: 1200px; 
+        width: 1000px; 
         gap: 60px;
         padding: 20px;
+        height: 500px;
         position: relative;
     }
 }

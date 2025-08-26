@@ -39,7 +39,7 @@
 
 @media (min-width: 1200px) {
     #services {
-        height: 100vh;
+        height: auto;
     }
     .contenedor-servicios {
         grid-template-columns: repeat(3, 1fr);

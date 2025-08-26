@@ -72,16 +72,16 @@
         height: calc(120vh - 100px);
     }
     .contenido{
-        height: 600px;
+        height: 500px;
     }
     .contenido img{
-        width: 240px;
+        width: 200px;
     }
     .contenido h1{
-        font-size: 55px;
+        font-size: 50px;
     }
     .typeWritter{
-        font-size: 25px;
+        font-size: 22px;
         width: 400px;
     }
 }

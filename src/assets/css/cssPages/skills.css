@@ -59,7 +59,8 @@
 
 @media (min-width:1200px) {
     #skills {
-        height: 180vh;
+        height: auto;
+        padding-bottom: 60px;
     }
     .contenedor-skills {
         display: grid;
