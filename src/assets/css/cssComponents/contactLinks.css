@@ -1,19 +1,17 @@
 .contact-link{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 500px;
-    padding: 60px;
-    gap: 50px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    gap: 30px;
     background: linear-gradient(400deg,#022e1a,#06331f,#056e3f);
-    position: relative;
-    right: 15%;
-    top: 15%;
     box-shadow: 10px 10px 20px #000000;
 }
 
 .titulo-contact-link{
     color: #fff;
+    text-align: center;
 }
 
 .links{
@@ -24,7 +22,9 @@
 
 .link{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -34,31 +34,29 @@
 
 .link p{
     color:#fff;
+    font-size: 17px;
 }
 
-@media(max-width:800px){
+@media (min-width:678px){
     .contact-link{
-        position: initial;
-        width: 300px;
-        align-items: center;
-        gap: 0px;
-        padding: 20px;
-        height: auto;
-        box-shadow: 5px 5px 12px #000000;
+        width: 450px;
     }
-    .titulo-contact-link{
-        font-size: 50px;
-        padding-bottom: 5px;
-        border-bottom: solid 2px #fff;
+    .link img{
+        width: 70px;
     }
-    .link{
-        align-items: center;
-        flex-direction: column;
+    .link p{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1200px){
+    .contact-link{
+        width: 400px;
     }
     .link img{
         width: 80px;
     }
     .link p{
-        font-size: 19px;
+        font-size: 22px;
     }
 }

@@ -1,52 +1,53 @@
 #contact{
-    height: 90vh;
+    height: 165vh;
     width: 100%;
     background-color: #0f0f0f;
 }
 
 .tituloContact{
-    font-size: 40px;
+    font-size: 35px;
     color: #fff;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     text-align: center;
     background: linear-gradient(to right, #065a34, #11a74d, #065a34);
     position: relative;
-    top: 10%;
+    top: 5%;
 }
 
 .contenido-contact{
     position: relative;
-    top: 100px;
+    top: 150px;
     display: flex;
-    width: 850px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
     height: auto;
+    gap: 20px;
     padding: 15px;
     background: linear-gradient(150deg,#1c9c67,#0f8a57);
     margin: auto;
 }
 
-@media(max-width:800px){
-    #contact{
-        height: auto;
-        padding-bottom: 70px;
+@media(min-width:678px){
+    .contenido-contact{
+        width: 600px;
     }
-    .tituloContact{
-        width: 330px;
-        font-size: 35px;
-        position: relative;
-        top: 40px;
+}
+
+@media (min-width:1200px){
+    #contact{
+        height: 110vh;
     }
     .contenido-contact{
-        width: 350px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-        height: auto;
-        position: initial;
-        margin-top: 100px;
+        position: relative;
+        flex-direction: row;
+        width: 1200px; 
+        gap: 60px;
+        padding: 20px;
+        position: relative;
     }
 }

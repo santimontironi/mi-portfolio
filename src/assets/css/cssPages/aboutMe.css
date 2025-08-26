@@ -1,6 +1,6 @@
 #aboutMe{
     max-width: 100%;
-    height: 120vh;
+    height: auto;
     background-color: #0f0f0f;
     position: relative;
 }
@@ -84,7 +84,7 @@
 
 @media(min-width:678px){
     #aboutMe{
-        height: 60vh;
+        height: 65vh;
     }
     .container{
         height: 650px;

@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 300px;
-    min-height: 100%;
+    height: 250px;
     padding: 12px;
     border-radius: 20px;
     background: linear-gradient(#15d85d,#0e7935);

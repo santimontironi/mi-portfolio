@@ -8,6 +8,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 350px;
 }
 
 input[type="text"]{
@@ -36,14 +37,6 @@ input[type="submit"]:hover{
     opacity: 80%;
 }
 
-@media(max-width:800px){
-    .contenedor-form{
-        height: auto;
-    }
-    form{
-        width: 300px;
-    }
-    input[type="text"]{
-        width: 100%;
-    }
+@media(min-width:678px){
+   
 }

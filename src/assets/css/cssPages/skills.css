@@ -1,5 +1,5 @@
 #skills {
-    height: 210vh;
+    height: 200vh;
     width: 100%;
     position: relative;
     background-color: #0f0f0f;
@@ -53,7 +53,7 @@
 
 @media (min-width:678px) {
     #skills {
-        height: 200vh;
+        height: 225vh;
     }
 }
 

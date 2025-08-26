@@ -1,61 +1,42 @@
-#projects{
+#projects {
     height: auto;
     padding-bottom: 100px;
     max-width: 100%;
     background-color: #058049;
 }
 
-.tituloProjects{
-    font-size: 40px;
+.tituloProjects {
+    font-size: 35px;
     color: #fff;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     text-align: center;
     position: relative;
     top: 60px;
-    background: linear-gradient(to right,#101010,#202020,#151515);
+    background: linear-gradient(to right, #101010, #202020, #151515);
 }
 
-.contenedor-projects{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-items: center;
-    gap: 60px;
+.contenedor-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
     margin-top: 120px;
 }
 
-@media (max-width:800px){
-    #projects{
-        height: auto;
-    }
-    .tituloProjects{
-        width: 330px;
-        font-size: 35px;
-        position: relative;
-        top: 15px;
-    }
-    .contenedor-projects{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 90px 0 0 0;
-        gap: 60px;
+@media (min-width:678px) {
+    .contenedor-projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        place-items: center;
     }
 }
 
-@media (min-width:801px) and (max-width:1300px){
-    .tituloProjects{
-        position: relative;
-        top: 40px;
-    }
-    .contenedor-projects{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-    }
+@media (min-width:1200px) {
 }
+
+@media (min-width:1440px) {}
