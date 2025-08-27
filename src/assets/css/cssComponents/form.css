@@ -11,7 +11,7 @@ form{
     width: 350px;
 }
 
-input[type="text"]{
+input{
     padding: 10px;
     width: 350px;
     border-radius: 10px;
