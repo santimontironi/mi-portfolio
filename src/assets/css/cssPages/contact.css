@@ -52,3 +52,11 @@
         position: relative;
     }
 }
+
+@media (min-width:1440px){
+    .contenido-contact{
+        top: 110px;
+        width: 1200px;
+        height: 600px;
+    }
+}

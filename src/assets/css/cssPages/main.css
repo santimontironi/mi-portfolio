@@ -90,10 +90,13 @@
     .contenedor{
         height: calc(110vh - 100px);
     }
+    .contenido{
+        height: 650px;
+    }
     .contenido img{
-        width: 280px;
+        width: 270px;
     }
     .contenido h1{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
