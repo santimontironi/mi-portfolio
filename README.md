@@ -20,4 +20,6 @@ Aquí encontrarás una combinación de diseño moderno y desarrollo funcional or
 
 ## 🛠️ Tecnologías utilizadas
 - **Frontend**: React, Vite, Animate On Scroll Library, Css 
-- **Herramientas**: Git, GitHub  
+- **Herramientas**: Git, GitHub
+
+## 🌐 Despliegue: https://santiagomontironi.netlify.app/
