@@ -30,7 +30,7 @@
 @media (min-width:678px) {
     .contenedor-projects {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-items: center;
         place-items: center;
     }
@@ -41,6 +41,7 @@
         width: 1100px;
         margin: auto;
         margin-top: 100px;
+        gap: 100px;
     }
 }
 
