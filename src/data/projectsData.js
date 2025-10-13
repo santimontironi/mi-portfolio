@@ -6,7 +6,7 @@ import imgProyectoWordle from '../assets/img/proyectoWordle.png'
 import imgProyectoCrudDjango from '../assets/img/proyectoCrudDjango.png'
 
 
-const projects = [
+const projectsData = [
     {
       fotoProyecto: imgProyectoFulboApp,
       tituloProyecto: "Football match organizer.",
@@ -69,4 +69,4 @@ const projects = [
     }
 ]
 
-export default projects
+export default projectsData

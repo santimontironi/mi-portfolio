@@ -21,6 +21,7 @@ input{
 textarea{
     height: 150px;
     padding: 10px;
+    resize: none;
 }
 
 input[type="submit"]{

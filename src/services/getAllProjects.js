@@ -1,5 +1,5 @@
-import projects from "../data/projects";
+import projectsData from "../data/projectsData";
 
 export const getProjects = () => {
-    return projects
+    return projectsData
 }
