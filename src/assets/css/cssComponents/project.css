@@ -61,6 +61,12 @@
     transform: scale(0px);
 }
 
+@media (min-width:1200px){
+    .project{
+        width: 300px;
+    }
+}
+
 
 @media (min-width:1440px){
     .project{
