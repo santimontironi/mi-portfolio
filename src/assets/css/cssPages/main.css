@@ -68,9 +68,6 @@
 }
 
 @media(min-width:1200px){
-    .contenedor{
-        height: calc(120vh - 100px);
-    }
     .contenido{
         height: 500px;
     }
@@ -87,9 +84,6 @@
 }
 
 @media (min-width:1440px){
-    .contenedor{
-        height: calc(110vh - 100px);
-    }
     .contenido{
         height: 650px;
     }
