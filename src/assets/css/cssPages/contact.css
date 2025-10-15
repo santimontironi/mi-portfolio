@@ -54,6 +54,9 @@
 }
 
 @media (min-width:1440px){
+    #contact{
+        height: 100vh;
+    }
     .contenido-contact{
         top: 110px;
         width: 1200px;
