@@ -47,9 +47,3 @@
         margin-top: 20px;
     }
 }
-
-@media (min-width: 1440px) {
-    #services{
-        height: 80vh;
-    }
-}
