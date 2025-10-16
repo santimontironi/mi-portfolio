@@ -75,7 +75,7 @@ const projectsData = [
       urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
       iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
       urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
-      iconoDespliegue: 'https://w7.pngwing.com/pngs/436/888/png-transparent-vercel-hd-logo-thumbnail.png',
+      iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
       nombreEnlaceDespliegue: "Vercel"
     }
 ]

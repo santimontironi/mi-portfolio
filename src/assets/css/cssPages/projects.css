@@ -27,6 +27,17 @@
     margin-top: 120px;
 }
 
+
+.msg-more-projects {
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+  margin-top: 20px;
+  opacity: 0.8;
+  font-size: 17px;
+  animation: pulse 2s infinite;
+}
+
 @media (min-width:678px) {
     .contenedor-projects {
         display: grid;
@@ -42,6 +53,10 @@
         margin: auto;
         margin-top: 100px;
         gap: 100px;
+    }
+
+    .msg-more-projects{
+        font-size: 25px;
     }
 }
 
