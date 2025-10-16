@@ -11,22 +11,22 @@ export const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active hvr-bounce-to-bottom" aria-current="page" href="#home">Home</a>
+              <a className="nav-link active hvr-bounce-to-bottom" aria-current="page" href="#home">Inicio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-bounce-to-bottom" href="#aboutMe">About me</a>
+              <a className="nav-link hvr-bounce-to-bottom" href="#aboutMe">Sobre mi</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-bounce-to-bottom" href="#services">Services</a>
+              <a className="nav-link hvr-bounce-to-bottom" href="#services">Servicios</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-bounce-to-bottom" href="#skills">Skills</a>
+              <a className="nav-link hvr-bounce-to-bottom" href="#skills">Habilidades</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-bounce-to-bottom" href="#projects">Projects</a>
+              <a className="nav-link hvr-bounce-to-bottom" href="#projects">Proyectos</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link hvr-bounce-to-bottom" href="#contact">Contact</a>
+              <a className="nav-link hvr-bounce-to-bottom" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>

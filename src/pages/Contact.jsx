@@ -5,7 +5,7 @@ import { Form } from '../components/Form'
 export const Contact = () => {
   return (
     <section id="contact">
-        <h1 className='tituloContact'>Contact to me</h1>
+        <h1 className='tituloContact'>Contacto</h1>
         <div className="contenido-contact" data-aos="zoom-in-down">
           <ContactLinks/>
           <Form/>

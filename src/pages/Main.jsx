@@ -12,14 +12,14 @@ export const Main = () => {
                 <div className="contenido" data-aos="zoom-in-down">
                     <img src={miFoto} alt="Foto perfil" />
                     <h1>
-                        Hi, I am <span>Santiago</span>
+                        Hola, soy <span>Santiago</span>
                     </h1>
                     <span className='typeWritter'>
                         <Typewriter
                             words={[
-                                "FullStack developer",
-                                "Continuous learner",
-                                "Effective digital solutions"
+                                "Desarrollador Fullstack",
+                                "Aprendiz continuo",
+                                "Soluciones digitales efectivas"
                             ]}
                             loop
                             cursor

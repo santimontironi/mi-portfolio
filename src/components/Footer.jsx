@@ -18,18 +18,18 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="links-rapidos">
-                <h1>Quick links</h1>
+                <h1>Links rápidos</h1>
                 <ul>
-                    <li><a href="#home" className="nav-link hvr-bounce-to-bottom">Home</a></li>
-                    <li><a href="#aboutme" className="nav-link hvr-bounce-to-bottom">About me</a></li>
-                    <li><a href="#services" className="nav-link hvr-bounce-to-bottom">Services</a></li>
-                    <li><a href="#projects" className="nav-link hvr-bounce-to-bottom">Projects</a></li>
-                    <li><a href="#contact" className="nav-link hvr-bounce-to-bottom">Contact</a></li>
+                    <li><a href="#home" className="nav-link hvr-bounce-to-bottom">Inicio</a></li>
+                    <li><a href="#aboutme" className="nav-link hvr-bounce-to-bottom">Sobre mi</a></li>
+                    <li><a href="#services" className="nav-link hvr-bounce-to-bottom">Servicios</a></li>
+                    <li><a href="#projects" className="nav-link hvr-bounce-to-bottom">Proyectos</a></li>
+                    <li><a href="#contact" className="nav-link hvr-bounce-to-bottom">Contacto</a></li>
                 </ul>
             </div>
         </div>
         <div className="txt-copyright">
-            <p>Portfolio developed by <a href="https://github.com/santimontironi">Santiago Montironi</a></p>
+            <p>Portfolio desarrollado por <a href="https://github.com/santimontironi">Santiago Montironi</a></p>
         </div>
     </footer>
   )

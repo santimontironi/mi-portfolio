@@ -3,7 +3,7 @@ import '../assets/css/cssComponents/contactLinks.css'
 export const ContactLinks = () => {
   return (
     <div className="contact-link">
-      <h1 className='titulo-contact-link'>Contact</h1>
+      <h1 className='titulo-contact-link'>Mis medios</h1>
       <div className="links">
         <div className="link">
           <img src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000" alt="logo-gmail" />

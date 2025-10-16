@@ -27,7 +27,7 @@ export const Projects = () => {
           </div>
         ))}
 
-        <span className='msg-more-projects'>Coming soon more projects</span>
+        <span className='msg-more-projects'>Próximamente mas proyectos...</span>
 
       </div>
     </section>

@@ -10,8 +10,8 @@ import imgProyectoClonWhatsapp from '../assets/img/proyectoClonWhatsapp.png'
 const projectsData = [
     {
       fotoProyecto: imgProyectoFulboApp,
-      tituloProyecto: "Football match organizer.",
-      descripcionProyecto: "FulboApp is a practical tool for organize football matchs. Input players' names, select the quantity, and random teams are generated instantly. Ideal for your meetings with friends and to save time before the match.",
+      tituloProyecto: "Organizador de partidos de fútbol",
+      descripcionProyecto: "FulboApp es una herramienta práctica para organizar partidos de fútbol. Ingresa los nombres de los jugadores, selecciona la cantidad y los equipos se generan aleatoriamente al instante. Ideal para tus encuentros con amigos y ahorrar tiempo antes del partido.",
       urlGitHub: 'https://github.com/santimontironi/fulboApp',
       iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
       urlDespliegue: 'https://fulboapp.netlify.app/',
@@ -20,8 +20,8 @@ const projectsData = [
     },
     {
       fotoProyecto: imgWebFullWeb,
-      tituloProyecto: "My startup's website.",
-      descripcionProyecto: "Official site of my business, where I offer web development services and digital solutions. Here you can find information about the services I offer and how to contact me to collaborate on future projects. My goal is to help businesses have an effective and professional online presence.",
+      tituloProyecto: "Sitio web de mi startup",
+      descripcionProyecto: "Sitio oficial de mi negocio, donde ofrezco servicios de desarrollo web y soluciones digitales. Aquí puedes encontrar información sobre los servicios que brindo y cómo contactarme para colaborar en futuros proyectos. Mi objetivo es ayudar a los negocios a tener una presencia online efectiva y profesional.",
       urlGitHub: 'https://github.com/santimontironi/sitio-web-agencia',
       iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
       urlDespliegue: 'https://fullwebportfolio.com/',
@@ -30,8 +30,8 @@ const projectsData = [
     },
     {
       fotoProyecto: imgQuizCapitales,
-      tituloProyecto: "Capital quiz.",
-      descripcionProyecto: "Interactive app that puts on test your knowledge about the capitals on the world. Answers questions of multiple choice and updgrade your geography while you fun. Ideal for estudients, travelers and any person interested on learn more about our planet.",
+      tituloProyecto: "Quiz de capitales",
+      descripcionProyecto: "Aplicación interactiva que pone a prueba tus conocimientos sobre las capitales del mundo. Responde preguntas de opción múltiple y mejora tu geografía mientras te diviertes. Ideal para estudiantes, viajeros y cualquier persona interesada en aprender más sobre nuestro planeta.",
       urlGitHub: 'https://github.com/santimontironi/quiz-de-capitales',
       iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
       urlDespliegue: 'https://quizcapitales.netlify.app/',
@@ -40,8 +40,8 @@ const projectsData = [
     },
     {
       fotoProyecto: imgListaDeTareas,
-      tituloProyecto: 'Tasks applicaction.',
-      descripcionProyecto: "Simple app for manage your diary tasks. You can add and delete taks, ass well ass check them how completed. Developed whit ReactJS, this application helps you to keeping organized and productiv in your day to day.",
+      tituloProyecto: 'Aplicación de tareas',
+      descripcionProyecto: "Aplicación sencilla para gestionar tus tareas diarias. Puedes agregar y eliminar tareas, así como marcarlas como completadas. Desarrollada con ReactJS, esta aplicación te ayuda a mantenerte organizado y productivo en tu día a día.",
       urlGitHub: 'https://github.com/santimontironi/lista-tareas-react',
       iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
       urlDespliegue: 'https://appdetareasbysm.netlify.app/',
@@ -50,8 +50,8 @@ const projectsData = [
     },
     {
       fotoProyecto: imgProyectoWordle,
-      tituloProyecto: "Wordle game",
-      descripcionProyecto: "This game it's a clon of the famous game Wordle. Is about guess a word, when your send the word and you will see clues as to some letters are correct or not. You have 5 attempts for guess the word. Try it!",
+      tituloProyecto: "Juego Wordle",
+      descripcionProyecto: "Este juego es un clon del famoso Wordle. Consiste en adivinar una palabra; al enviar tu intento, recibirás pistas sobre qué letras están correctas o no. Tienes 5 intentos para adivinar la palabra. ¡Pruébalo!",
       urlGitHub: 'https://github.com/santimontironi/wordle-game',
       iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
       urlDespliegue: 'https://wordlegamebysm.netlify.app/',
@@ -60,8 +60,8 @@ const projectsData = [
     },
     {
       fotoProyecto: imgProyectoCrudDjango,
-      tituloProyecto: "Tasks crud",
-      descripcionProyecto: "This application consists in a CRUD of tasks, where you can login or register and later add tasks, edit, check like completed and see all tasks completed. In this project I used Django and database SQL and layout with HTML,CSS and Bootstrap.",
+      tituloProyecto: "CRUD de tareas",
+      descripcionProyecto: "Aplicación que consiste en un CRUD de tareas, donde puedes registrarte o iniciar sesión y luego agregar, editar, marcar como completadas y ver todas las tareas. En este proyecto utilicé Django y base de datos SQL, y el diseño con HTML, CSS y Bootstrap.",
       urlGitHub: "https://github.com/santimontironi/CRUD-Django",
       iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
       urlDespliegue: 'https://mysite-9s4w.onrender.com/',
@@ -70,8 +70,8 @@ const projectsData = [
     },
     {
       fotoProyecto: imgProyectoClonWhatsapp,
-      tituloProyecto: "Clon Whatsapp",
-      descripcionProyecto: "This is a clon of the popular messaging app WhatsApp. It has a login page, a chat page and a profile page. It was created with ReactJS and Firebase.",
+      tituloProyecto: "Clon de Whatsapp",
+      descripcionProyecto: "Este es un clon de la popular aplicación de mensajería WhatsApp. Cuenta con página de inicio de sesión, chat y perfil. Fue creado con ReactJS y Firebase.",
       urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
       iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
       urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
