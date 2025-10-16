@@ -4,6 +4,7 @@ import imgQuizCapitales from '../assets/img/proyectoQuizCapitales.png'
 import imgListaDeTareas from '../assets/img/proyectoListaDeTareas.png'
 import imgProyectoWordle from '../assets/img/proyectoWordle.png'
 import imgProyectoCrudDjango from '../assets/img/proyectoCrudDjango.png'
+import imgProyectoClonWhatsapp from '../assets/img/proyectoClonWhatsapp.png'
 
 
 const projectsData = [
@@ -66,6 +67,16 @@ const projectsData = [
       urlDespliegue: 'https://mysite-9s4w.onrender.com/',
       iconoDespliegue: 'https://pbs.twimg.com/profile_images/1735429515541938176/zOO1N7Su_400x400.jpg',
       nombreEnlaceDespliegue: 'Render'
+    },
+    {
+      fotoProyecto: imgProyectoClonWhatsapp,
+      tituloProyecto: "Clon Whatsapp",
+      descripcionProyecto: "This is a clon of the popular messaging app WhatsApp. It has a login page, a chat page and a profile page. It was created with ReactJS and Firebase.",
+      urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
+      iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+      urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
+      iconoDespliegue: 'https://w7.pngwing.com/pngs/436/888/png-transparent-vercel-hd-logo-thumbnail.png',
+      nombreEnlaceDespliegue: "Vercel"
     }
 ]
 
