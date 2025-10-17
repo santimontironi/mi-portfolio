@@ -1,5 +1,6 @@
 import '../assets/css/cssComponents/nav.css'
 
+
 export const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg" id='menu'>
@@ -27,6 +28,10 @@ export const Nav = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link hvr-bounce-to-bottom" href="#contact">Contacto</a>
+            </li>
+            <li className="nav-item changeLanguage-item">
+              <button><img src="https://img.icons8.com/?size=100&id=17967&format=png&color=000000"/></button>
+              <button><img src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000"/></button>
             </li>
           </ul>
         </div>
