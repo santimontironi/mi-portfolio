@@ -8,22 +8,25 @@ import { Footer } from "./components/Footer"
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { LanguageProvider } from "./context/languageContext"
 
 const App = () => {
 
   useEffect(() => {
-    Aos.init({duration:1000})
+    Aos.init({ duration: 1000 })
   })
 
   return (
     <>
-      <Main />
-      <AboutMe />
-      <Services />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <LanguageProvider>
+        <Main />
+        <AboutMe />
+        <Services />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </LanguageProvider>
     </>
   )
 }
