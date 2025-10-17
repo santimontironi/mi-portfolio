@@ -34,7 +34,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="txt-copyright">
-                <p>{language === 'es' ? 'Desarrollado por Santiago Montironi' : 'Developed by Santiago Montironi'} <a href="https://github.com/santimontironi">Santiago Montironi</a></p>
+                <p>{language === 'es' ? 'Desarrollado por' : 'Developed by'} <a href="https://github.com/santimontironi">Santiago Montironi</a></p>
             </div>
         </footer>
     )

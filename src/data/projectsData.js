@@ -21,7 +21,7 @@ const projectsData = (language) => {
       },
       {
         fotoProyecto: imgWebFullWeb,
-        tituloProyecto: "Sitio web de mi startup",
+        tituloProyecto: "Mi emprendimiento",
         descripcionProyecto: "Sitio oficial de mi negocio, donde ofrezco servicios de desarrollo web y soluciones digitales. Aquí puedes encontrar información sobre los servicios que brindo y cómo contactarme para colaborar en futuros proyectos. Mi objetivo es ayudar a los negocios a tener una presencia online efectiva y profesional.",
         urlGitHub: 'https://github.com/santimontironi/sitio-web-agencia',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
@@ -72,7 +72,7 @@ const projectsData = (language) => {
       {
         fotoProyecto: imgProyectoClonWhatsapp,
         tituloProyecto: "Clon de Whatsapp",
-        descripcionProyecto: "Este es un clon de la popular aplicación de mensajería WhatsApp. Cuenta con página de inicio de sesión, chat y perfil. Fue creado con ReactJS y Firebase.",
+        descripcionProyecto: "Aplicación clon de WhatsApp que forma parte del proyecto final de Frontend en UTN BS AS. Cuenta con página de inicio y luego de cada chat. Se pueden buscar contactos como asi también agregarlos.",
         urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
