@@ -1,7 +1,7 @@
 import serviceData from "../data/servicesData";
 
-function allServices(){
-    return serviceData
+function allServices(language){
+    return serviceData(language)
 }
 
 export default allServices

@@ -1,19 +1,23 @@
 import '../assets/css/cssPages/services.css'
 import { Service } from '../components/Service'
 import allServices from '../services/getAllServices'
+import { useContext } from 'react'
+import { LanguageContext } from '../context/languageContext'
 
 export const Services = () => {
 
+  const {language} = useContext(LanguageContext)
 
-  const getAllServices = () => {
-    return allServices()
-  }
+  const getAllServices = allServices(language)
+  
 
   return (
     <section id="services">
-      <h1 className='titulo-services'>Mis servicios</h1>
+      
+      {language === 'es' ? <h1 className='titulo-services'>Mis servicios</h1> : <h1 className='titulo-services'>My services</h1>}
+      
       <div className="container contenedor-servicios">
-        {getAllServices().map((service, index) => (
+        {getAllServices.map((service, index) => (
           <Service
             key={index}
             icono={service.icono}
