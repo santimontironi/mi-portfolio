@@ -2,8 +2,12 @@ import { Typewriter } from 'react-simple-typewriter'
 import '../assets/css/cssPages/main.css'
 import { Nav } from '../components/Nav'
 import miFoto from '../assets/img/foto.png'
+import { LanguageContext } from '../context/languageContext'
+import { useContext } from 'react'
 
 export const Main = () => {
+
+    const { language } = useContext(LanguageContext);
 
     return (
         <section className='contenedor'>
@@ -11,16 +15,22 @@ export const Main = () => {
             <main id="home">
                 <div className="contenido" data-aos="zoom-in-down">
                     <img src={miFoto} alt="Foto perfil" />
-                    <h1>
-                        Hola, soy <span>Santiago</span>
-                    </h1>
+                    {language === 'es' ? <h1>Hola, soy <span>Santiago</span></h1> : <h1>Hello, I'm <span>Santiago</span></h1>}
                     <span className='typeWritter'>
                         <Typewriter
-                            words={[
-                                "Desarrollador Fullstack",
-                                "Aprendiz continuo",
-                                "Soluciones digitales efectivas"
-                            ]}
+                            words={
+                                language === 'es'
+                                    ? [
+                                        "Desarrollador Fullstack",
+                                        "Aprendiz continuo",
+                                        "Soluciones digitales efectivas"
+                                    ]
+                                    : [
+                                        "Fullstack Developer",
+                                        "Continuos learner",
+                                        "Building digital solutions"
+                                    ]
+                            }
                             loop
                             cursor
                             typeSpeed={50}
