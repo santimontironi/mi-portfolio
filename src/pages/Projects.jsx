@@ -31,7 +31,7 @@ export const Projects = () => {
           </div>
         ))}
 
-        <span className='msg-more-projects'>Próximamente mas proyectos...</span>
+        <span className='msg-more-projects'> {language === 'es' ? 'Próximamente mas proyectos...' : 'Coming soon more projects...'} </span>
 
       </div>
     </section>
