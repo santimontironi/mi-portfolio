@@ -1,9 +1,14 @@
 import '../assets/css/cssComponents/contactLinks.css'
+import { useContext } from 'react'
+import { LanguageContext } from '../context/languageContext'
 
 export const ContactLinks = () => {
+
+  const{language} = useContext(LanguageContext)
+
   return (
     <div className="contact-link">
-      <h1 className='titulo-contact-link'>Mis medios</h1>
+      <h1 className='titulo-contact-link'>{language === 'es' ? 'Mis medios' : 'My contacts'}</h1>
       <div className="links">
         <div className="link">
           <img src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000" alt="logo-gmail" />
