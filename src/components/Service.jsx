@@ -4,7 +4,9 @@ export const Service = ({icono,titulo,descripcion}) => {
 
   return (
     <div className='servicio' data-aos="zoom-in-down">
-        <p className='logo'>{icono}</p>
+        <p className='logo'>
+          <i className={icono}></i>
+        </p>
         <h2 className='border-bottom border-solid border-light'>{titulo}</h2>
         <p>{descripcion}</p>
     </div>
