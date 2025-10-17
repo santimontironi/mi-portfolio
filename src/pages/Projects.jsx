@@ -1,15 +1,19 @@
 import '../assets/css/cssPages/projects.css'
 import { getProjects } from '../services/getAllProjects'
 import { Project } from '../components/Project'
+import { useContext } from 'react'
+import { LanguageContext } from '../context/languageContext'
 
 export const Projects = () => {
 
-  const allProjects = getProjects()
+  const { language } = useContext(LanguageContext)
+
+  const allProjects = getProjects(language)
 
   return (
 
     <section id='projects'>
-      <h1 className='tituloProjects'>Projects</h1>
+      {language === 'es' ? <h1 className='tituloProjects'>Proyectos</h1> : <h1 className='tituloProjects'>Projects</h1>}
       <div className="contenedor-projects">
 
         {allProjects.map((project, index) => (
