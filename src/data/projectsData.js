@@ -1,14 +1,34 @@
 import imgProyectoFulboApp from '../assets/img/proyectoFulboApp.png'
 import imgWebFullWeb from '../assets/img/proyectoWebFullWeb.png'
 import imgQuizCapitales from '../assets/img/proyectoQuizCapitales.png'
-import imgListaDeTareas from '../assets/img/proyectoListaDeTareas.png'
 import imgProyectoWordle from '../assets/img/proyectoWordle.png'
 import imgProyectoCrudDjango from '../assets/img/proyectoCrudDjango.png'
 import imgProyectoClonWhatsapp from '../assets/img/proyectoClonWhatsapp.png'
+import imgProyectoNunoDeportes from '../assets/img/proyectoNunoDeportes.png'
 
 const projectsData = (language) => {
   if (language === 'es') {
     return [
+      {
+        fotoProyecto: imgProyectoNunoDeportes,
+        tituloProyecto: "Nuno Deportes",
+        descripcionProyecto: "Sitio web para una tienda de artículos deportivos llamada Nuno Deportes. El sitio ofrece una landing page, catálogo de productos formulario de contacto y un panel de administrador donde se gestionan los productos. Fue desarrollado utilizando el stack MERN para brindar una experiencia de usuario atractiva y funcional. También se implementó la API de MercadoPago para facilitar los pagos en línea.",
+        urlGitHub: 'https://github.com/santimontironi/ecommerce-express',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://nunodeportes.netlify.app/',
+        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
+        nombreEnlaceDespliegue: "Netlify"
+      },
+      {
+        fotoProyecto: imgProyectoClonWhatsapp,
+        tituloProyecto: "Clon de Whatsapp",
+        descripcionProyecto: "Aplicación clon de WhatsApp que forma parte del proyecto final de Frontend en UTN BS AS. Cuenta con página de inicio y luego de cada chat. Se pueden buscar contactos como asi también agregarlos.",
+        urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
+        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
+        nombreEnlaceDespliegue: "Vercel"
+      },
       {
         fotoProyecto: imgProyectoFulboApp,
         tituloProyecto: "Organizador de partidos de fútbol",
@@ -40,16 +60,6 @@ const projectsData = (language) => {
         nombreEnlaceDespliegue: "Netlify"
       },
       {
-        fotoProyecto: imgListaDeTareas,
-        tituloProyecto: 'Aplicación de tareas',
-        descripcionProyecto: "Aplicación sencilla para gestionar tus tareas diarias. Puedes agregar y eliminar tareas, así como marcarlas como completadas. Desarrollada con ReactJS, esta aplicación te ayuda a mantenerte organizado y productivo en tu día a día.",
-        urlGitHub: 'https://github.com/santimontironi/lista-tareas-react',
-        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        urlDespliegue: 'https://appdetareasbysm.netlify.app/',
-        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        nombreEnlaceDespliegue: "Netlify"
-      },
-      {
         fotoProyecto: imgProyectoWordle,
         tituloProyecto: "Juego Wordle",
         descripcionProyecto: "Este juego es un clon del famoso Wordle. Consiste en adivinar una palabra; al enviar tu intento, recibirás pistas sobre qué letras están correctas o no. Tienes 5 intentos para adivinar la palabra. ¡Pruébalo!",
@@ -68,21 +78,31 @@ const projectsData = (language) => {
         urlDespliegue: 'https://mysite-9s4w.onrender.com/',
         iconoDespliegue: 'https://pbs.twimg.com/profile_images/1735429515541938176/zOO1N7Su_400x400.jpg',
         nombreEnlaceDespliegue: 'Render'
-      },
-      {
-        fotoProyecto: imgProyectoClonWhatsapp,
-        tituloProyecto: "Clon de Whatsapp",
-        descripcionProyecto: "Aplicación clon de WhatsApp que forma parte del proyecto final de Frontend en UTN BS AS. Cuenta con página de inicio y luego de cada chat. Se pueden buscar contactos como asi también agregarlos.",
-        urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
-        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
-        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        nombreEnlaceDespliegue: "Vercel"
       }
     ]
 
   } else {
     return [
+      {
+        fotoProyecto: imgProyectoNunoDeportes,
+        tituloProyecto: "Nuno Deportes",
+        descripcionProyecto: "Web site for a sports articles called Nuno Deportes. The site offers a landing page, product catalog, contact form, and an admin panel where products are managed. It was developed using the MERN stack to provide an attractive and functional user experience. The MercadoPago API was also implemented to facilitate online payments.",
+        urlGitHub: 'https://github.com/santimontironi/ecommerce-express',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://nunodeportes.netlify.app/',
+        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
+        nombreEnlaceDespliegue: "Netlify"
+      },
+      {
+        fotoProyecto: imgProyectoClonWhatsapp,
+        tituloProyecto: "WhatsApp Clone",
+        descripcionProyecto: "A clone of the popular messaging app WhatsApp. It includes a login page, chat, and profile section. Built using ReactJS and Firebase.",
+        urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
+        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
+        nombreEnlaceDespliegue: "Vercel"
+      },
       {
         fotoProyecto: imgProyectoFulboApp,
         tituloProyecto: "Soccer Match Organizer",
@@ -114,16 +134,6 @@ const projectsData = (language) => {
         nombreEnlaceDespliegue: "Netlify"
       },
       {
-        fotoProyecto: imgListaDeTareas,
-        tituloProyecto: 'Task Manager App',
-        descripcionProyecto: "A simple app to manage your daily tasks. You can add, remove, and mark tasks as completed. Built with ReactJS, this app helps you stay organized and productive every day.",
-        urlGitHub: 'https://github.com/santimontironi/lista-tareas-react',
-        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        urlDespliegue: 'https://appdetareasbysm.netlify.app/',
-        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        nombreEnlaceDespliegue: "Netlify"
-      },
-      {
         fotoProyecto: imgProyectoWordle,
         tituloProyecto: "Wordle Game",
         descripcionProyecto: "This game is a clone of the famous Wordle. The goal is to guess a word — after each attempt, you'll get hints about which letters are correct or not. You have 5 tries to find the word. Give it a shot!",
@@ -142,16 +152,6 @@ const projectsData = (language) => {
         urlDespliegue: 'https://mysite-9s4w.onrender.com/',
         iconoDespliegue: 'https://pbs.twimg.com/profile_images/1735429515541938176/zOO1N7Su_400x400.jpg',
         nombreEnlaceDespliegue: 'Render'
-      },
-      {
-        fotoProyecto: imgProyectoClonWhatsapp,
-        tituloProyecto: "WhatsApp Clone",
-        descripcionProyecto: "A clone of the popular messaging app WhatsApp. It includes a login page, chat, and profile section. Built using ReactJS and Firebase.",
-        urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
-        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
-        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        nombreEnlaceDespliegue: "Vercel"
       }
     ]
   }
