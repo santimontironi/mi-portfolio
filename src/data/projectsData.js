@@ -35,7 +35,7 @@ const projectsData = (language) => {
       {
         fotoProyecto: imgProyectoClonWhatsapp,
         tituloProyecto: "Clon de Whatsapp",
-        descripcionProyecto: "Aplicación clon de WhatsApp que forma parte del proyecto final de Frontend en UTN BS AS. Cuenta con página de inicio y luego de cada chat. Se pueden buscar contactos como asi también agregarlos.",
+        descripcionProyecto: "Aplicación clon de WhatsApp que forma parte del proyecto final de Frontend en UTN BS AS. Cuenta con página de inicio y luego de cada chat. Se pueden buscar contactos como asi también agregarlos. Fue desarrollada con ReactJS y CSS, con un enfoque en la usabilidad y experiencia del usuario para una navegación fluida y agradable.",
         urlGitHub: 'https://github.com/santimontironi/clon-whatsapp',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         urlDespliegue: 'https://clon-whatsapp-sm.vercel.app/',
