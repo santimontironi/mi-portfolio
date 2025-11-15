@@ -5,6 +5,7 @@ import imgProyectoWordle from '../assets/img/proyectoWordle.png'
 import imgProyectoCrudDjango from '../assets/img/proyectoCrudDjango.png'
 import imgProyectoClonWhatsapp from '../assets/img/proyectoClonWhatsapp.png'
 import imgProyectoNunoDeportes from '../assets/img/proyectoNunoDeportes.png'
+import imgProyectoGarsonic from '../assets/img/proyectoGarsonic.png'
 
 const projectsData = (language) => {
   if (language === 'es') {
@@ -16,6 +17,18 @@ const projectsData = (language) => {
         urlGitHub: 'https://github.com/santimontironi/ecommerce-express',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         urlDespliegue: 'https://nunodeportes.netlify.app/',
+        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
+        nombreEnlaceDespliegue: "Netlify",
+        demo: true,
+        urlVideoDemo: 'https://res.cloudinary.com/dbugzwzhn/video/upload/v1763169140/grabacionNunoDeportes_fbxpzj.mp4'
+      },
+      {
+        fotoProyecto: imgProyectoGarsonic,
+        tituloProyecto: "Garsonic (Aplicación de música)",
+        descripcionProyecto: "Aplicacion web estilo Spotify. El sitio ofrece una landing page, roles de Artista y Usuario donde se gestionan canciones, playlists y reproducción de canciones. Fue desarrollado utilizando el stack MERN para brindar una experiencia de usuario atractiva y funcional. También se implementó TailwindCSS",
+        urlGitHub: 'https://github.com/santimontironi/ecommerce-express',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://garsonic.netlify.app/',
         iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
         nombreEnlaceDespliegue: "Netlify"
       },
@@ -90,6 +103,18 @@ const projectsData = (language) => {
         urlGitHub: 'https://github.com/santimontironi/ecommerce-express',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         urlDespliegue: 'https://nunodeportes.netlify.app/',
+        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
+        nombreEnlaceDespliegue: "Netlify",
+        demo: true,
+        urlVideoDemo: 'https://res.cloudinary.com/dbugzwzhn/video/upload/v1763169140/grabacionNunoDeportes_fbxpzj.mp4'
+      },
+      {
+        fotoProyecto: imgProyectoGarsonic,
+        tituloProyecto: "Garsonic (Music Application)",
+        descripcionProyecto: "Web application for a music platform called Garsonic. The platform includes a login page, a dashboard for artists and users, and a music player. It was built using stack MERN and TailwindCSS. Inside the plataform, artist can manage their songs and users can create playlists and listen to music.",
+        urlGitHub: 'https://github.com/santimontironi/ecommerce-express',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://garsonic.netlify.app/',
         iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
         nombreEnlaceDespliegue: "Netlify"
       },
