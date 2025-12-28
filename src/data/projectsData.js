@@ -6,6 +6,7 @@ import imgProyectoCrudDjango from '../assets/img/proyectoCrudDjango.png'
 import imgProyectoClonWhatsapp from '../assets/img/proyectoClonWhatsapp.png'
 import imgProyectoNunoDeportes from '../assets/img/proyectoNunoDeportes.png'
 import imgProyectoGarsonic from '../assets/img/proyectoGarsonic.png'
+import imgProyectoMorfiBot from '../assets/img/proyectoMorfiBot.png'
 
 const projectsData = (language) => {
   if (language === 'es') {
@@ -29,6 +30,16 @@ const projectsData = (language) => {
         urlGitHub: 'https://github.com/santimontironi/ecommerce-express',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         urlDespliegue: 'https://garsonic.netlify.app/',
+        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
+        nombreEnlaceDespliegue: "Netlify"
+      },
+      {
+        fotoProyecto: imgProyectoMorfiBot,
+        tituloProyecto: 'MorfiBot - Generador de recetas',
+        descripcionProyecto: "Aplicación que te permite crear recetas de comida con ingredientes que te proporciona la API de OpenAI. En este proyecto utilicé el stack MERN, OpenAI API y TailwindCSS.",
+        urlGitHub: 'https://github.com/santimontironi/aplicacion-recetas-IA',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://morfibot.netlify.app/',
         iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
         nombreEnlaceDespliegue: "Netlify"
       },
@@ -115,6 +126,16 @@ const projectsData = (language) => {
         urlGitHub: 'https://github.com/santimontironi/ecommerce-express',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         urlDespliegue: 'https://garsonic.netlify.app/',
+        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
+        nombreEnlaceDespliegue: "Netlify"
+      },
+      {
+        fotoProyecto: imgProyectoMorfiBot,
+        tituloProyecto: 'MorfiBot - Recipes generator',
+        descripcionProyecto: "Application that generates recipes using the OpenAI API. This project is developed with MERN and TailwindCSS",
+        urlGitHub: 'https://github.com/santimontironi/aplicacion-recetas-IA',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://morfibot.netlify.app/',
         iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
         nombreEnlaceDespliegue: "Netlify"
       },

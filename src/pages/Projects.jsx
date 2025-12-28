@@ -12,6 +12,10 @@ export const Projects = () => {
 
   const allProjects = getProjects(language)
 
+  function showDemo(videoURL) {
+    setVideoSelected(videoURL)
+  }
+
   return (
 
     <section id='projects'>
@@ -31,7 +35,7 @@ export const Projects = () => {
               nombreEnlaceDespliegue={project.nombreEnlaceDespliegue}
               demo={project.demo}
               videoDemo={project.urlVideoDemo}
-              showDemo={(videoURL) => setVideoSelected(videoURL)}
+              showDemo={showDemo}
             />
           </div>
         ))}
