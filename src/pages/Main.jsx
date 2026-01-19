@@ -23,7 +23,7 @@ export const Main = () => {
                                     ? [
                                         "Desarrollador Fullstack",
                                         "Aprendiz continuo",
-                                        "Soluciones digitales efectivas"
+                                        "Soluciones digitales"
                                     ]
                                     : [
                                         "Fullstack Developer",

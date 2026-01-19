@@ -68,6 +68,9 @@
 }
 
 @media(min-width:1200px){
+    .contenedor{
+        height: 100vh;
+    }
     .contenido{
         height: 500px;
     }
