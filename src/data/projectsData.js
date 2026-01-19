@@ -2,11 +2,11 @@ import imgProyectoFulboApp from '../assets/img/proyectoFulboApp.png'
 import imgWebFullWeb from '../assets/img/proyectoWebFullWeb.png'
 import imgQuizCapitales from '../assets/img/proyectoQuizCapitales.png'
 import imgProyectoWordle from '../assets/img/proyectoWordle.png'
-import imgProyectoCrudDjango from '../assets/img/proyectoCrudDjango.png'
 import imgProyectoClonWhatsapp from '../assets/img/proyectoClonWhatsapp.png'
 import imgProyectoNunoDeportes from '../assets/img/proyectoNunoDeportes.png'
 import imgProyectoGarsonic from '../assets/img/proyectoGarsonic.png'
 import imgProyectoMorfiBot from '../assets/img/proyectoMorfiBot.png'
+import imgCrudNext from '../assets/img/proyectoCRUDtareas.png'
 
 const projectsData = (language) => {
   if (language === 'es') {
@@ -70,6 +70,16 @@ const projectsData = (language) => {
         urlGitHub: 'https://github.com/santimontironi/sitio-web-agencia',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         urlDespliegue: 'https://fullwebportfolio.com/',
+        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
+        nombreEnlaceDespliegue: "Vercel"
+      },
+      {
+        fotoProyecto: imgCrudNext,
+        tituloProyecto: "Gestor de tareas Next.js",
+        descripcionProyecto: "Gestor de tareas desarrollada con Next.js. La base de datos es PostgreSQL utilizando Prisma como ORM y se utiliza NextAuth para autenticación de usuarios. Es una aplicación sencilla en cuanto a lo que hace pero me sirvió mucho para usar Prisma y NextAuth.",
+        urlGitHub: "https://github.com/santimontironi/crud-nextjs-prisma",
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://crud-nextjs-prisma-navy.vercel.app/',
         iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
         nombreEnlaceDespliegue: "Vercel"
       },
@@ -158,6 +168,15 @@ const projectsData = (language) => {
         urlDespliegue: 'https://fullwebportfolio.com/',
         iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
         nombreEnlaceDespliegue: "Netlify"
+      },
+      { fotoProyecto: imgCrudNext,
+        tituloProyecto: "Tasks manager Next.js",
+        descripcionProyecto: "Tasks manager developed with Next.js. The database is PostgreSQL with Prisma ORM and NextAuth it's used for authentication. It´s an easy-to-use app but helps me to use Prisma and NextAuth.",
+        urlGitHub: "https://github.com/santimontironi/crud-nextjs-prisma",
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://crud-nextjs-prisma-navy.vercel.app/',
+        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
+        nombreEnlaceDespliegue: "Vercel"
       },
       {
         fotoProyecto: imgQuizCapitales,
