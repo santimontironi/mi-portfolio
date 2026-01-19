@@ -7,7 +7,8 @@ Aquí encontrarás una combinación de diseño moderno y desarrollo funcional or
 
 ## ✨ Características principales
 - **Diseño responsive**: adaptado para móviles, tablets y desktop.  
-- **Interfaz moderna**: uso de animaciones y transiciones sutiles. 
+- **Interfaz moderna**: uso de animaciones y transiciones sutiles.
+- **Experiencia multilenguaje**: contenido accesible en español e inglés.
 
 ---
 
