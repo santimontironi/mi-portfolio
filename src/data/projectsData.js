@@ -70,8 +70,8 @@ const projectsData = (language) => {
         urlGitHub: 'https://github.com/santimontironi/sitio-web-agencia',
         iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         urlDespliegue: 'https://fullwebportfolio.com/',
-        iconoDespliegue: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        nombreEnlaceDespliegue: "Netlify"
+        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
+        nombreEnlaceDespliegue: "Vercel"
       },
       {
         fotoProyecto: imgQuizCapitales,
