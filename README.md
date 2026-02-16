@@ -216,11 +216,10 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 **Santiago Montironi**
 
 - 🌐 Portafolio: [santiagomontironi.netlify.app](https://santiagomontironi.netlify.app)
-- 📧 Email: [tu-email@ejemplo.com]
-- 💼 LinkedIn: [tu-perfil-linkedin]
-- 🐙 GitHub: [tu-perfil-github]
-- 🐦 Twitter: [@tu-usuario]
-
+- 📧 Email: [santiagomontironi21@gmail.com]
+- 💼 LinkedIn: [linkedin.com/in/santiago-montironi-649652215]
+- 🐙 GitHub: [github.com/santimontironi]
+- 
 ---
 
 **Hecho con ❤️ por Santiago Montironi**
