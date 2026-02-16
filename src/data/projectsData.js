@@ -7,10 +7,21 @@ import imgProyectoNunoDeportes from '../assets/img/proyectoNunoDeportes.png'
 import imgProyectoGarsonic from '../assets/img/proyectoGarsonic.png'
 import imgProyectoMorfiBot from '../assets/img/proyectoMorfiBot.png'
 import imgCrudNext from '../assets/img/proyectoCRUDtareas.png'
+import imgMpComponentes from '../assets/img/proyectoMpComponentes.png'
 
 const projectsData = (language) => {
   if (language === 'es') {
     return [
+      {
+        fotoProyecto: imgMpComponentes,
+        tituloProyecto: "MP Componentes - e-commerce",
+        descripcionProyecto: "MP Componentes es un sitio web de comercio electrónico dedicado a la venta de componentes electrónicos. El sitio ofrece una experiencia de compra fluida y atractiva, con una amplia gama de productos disponibles para los entusiastas de la electrónica. Fue desarrollado utilizando el stack MERN (MongoDB, Express.js, React.js y Node.js) para garantizar un rendimiento óptimo y una interfaz de usuario intuitiva, además se implementó la API de MercadoPago para facilitar los pagos en línea.",
+        urlGitHub: 'https://github.com/santimontironi/ecommerce-mpComponentes',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://www.mpcomponentes.com',
+        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
+        nombreEnlaceDespliegue: "Vercel"
+      },
       {
         fotoProyecto: imgProyectoNunoDeportes,
         tituloProyecto: "Nuno Deportes",
@@ -107,6 +118,16 @@ const projectsData = (language) => {
 
   } else {
     return [
+      {
+        fotoProyecto: imgMpComponentes,
+        tituloProyecto: "MP Componentes - e-commerce",
+        descripcionProyecto: "MP Componentes is a website for electronic components e-commerce. The site offers a smooth and attractive shopping experience, with a wide range of products available for electronics enthusiasts. It was developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to ensure optimal performance and an intuitive user interface.Also, MercadoPago API was implemented to facilitate online payments.",
+        urlGitHub: 'https://github.com/santimontironi/ecommerce-mpComponentes',
+        iconoGitHub: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        urlDespliegue: 'https://www.mpcomponentes.com',
+        iconoDespliegue: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
+        nombreEnlaceDespliegue: "Vercel"
+      },
       {
         fotoProyecto: imgProyectoNunoDeportes,
         tituloProyecto: "Nuno Deportes",
